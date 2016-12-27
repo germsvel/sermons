@@ -1,0 +1,6 @@
+<h2>Edit sermon</h2>
+
+<%= render "form.html", changeset: @changeset,
+                        action: sermon_path(@conn, :update, @sermon) %>
+
+<%= link "Back", to: sermon_path(@conn, :index) %>

@@ -16,7 +16,7 @@ defmodule Sermons.Router do
   scope "/", Sermons do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", SermonController, :index
   end
 
   # Other scopes may use custom stacks.

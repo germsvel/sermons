@@ -1,0 +1,34 @@
+<h1>Search for sermons</h1>
+<%= form_for @conn, sermon_path(@conn, :index), [as: :search, method: "get"], fn f -> %>
+  <%= text_input f, :query %>
+  <%= submit "Search" %>
+<% end %>
+
+<%= if @query do %>
+  <h2>Sermons for <%= @query.passage %></h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Ministry name</th>
+        <th>Passage</th>
+        <th>Source url</th>
+        <th>Download url</th>
+        <th>Author</th>
+
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+  <%= for sermon <- @sermons do %>
+      <tr>
+        <td><%= sermon.ministry_name %></td>
+        <td><%= sermon.passage %></td>
+        <td><%= sermon.source_url %></td>
+        <td><%= sermon.download_url %></td>
+        <td><%= sermon.author %></td>
+      </tr>
+  <% end %>
+    </tbody>
+  </table>
+<% end %>

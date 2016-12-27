@@ -22,7 +22,7 @@ defmodule Sermons.Mixfile do
     ]
   end
 
-  def app_list(:test), do: [:hound | app_list]
+  def app_list(:test), do: [:hound, :ex_machina | app_list]
   def app_list(_), do: app_list
   def app_list do
      [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
@@ -45,7 +45,8 @@ defmodule Sermons.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:hound, "~> 1.0", only: :test}
+     {:hound, "~> 1.0", only: :test},
+     {:ex_machina, "~> 1.0", only: :test}
    ]
   end
 

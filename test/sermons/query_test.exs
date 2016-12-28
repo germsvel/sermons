@@ -26,7 +26,15 @@ defmodule Sermons.QueryTest do
     assert query.last_verse == 23
   end
 
-  test ".new creates a new query for books with numbers (e.g. 1 Cor 1:13)"
+  test ".new creates a new query for books with numbers (e.g. 1 Cor 1:13)" do
+    query = Query.new("1 Corinthians 1:13")
+
+    assert query.passage == "1 Corinthians 1:13"
+    assert query.book == "1 Corinthians"
+    assert query.chapter == 1
+    assert query.first_verse == 13
+    assert query.last_verse == 13
+  end
 
   # ===
   # .run

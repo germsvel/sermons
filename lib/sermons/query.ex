@@ -12,27 +12,29 @@ defmodule Sermons.Query do
             book: book,
             chapter: chapter,
             first_verse: first,
-            last_verse: last
-          }
+            last_verse: last }
   end
 
   defp parse_passage(passage) do
-    [book, rest | _] = split_book(passage)
-    [chapter, verses | _] = split_chapter(rest)
-    [first, last | _] = split_verses(verses)
+    [book, rest] = split_book(passage)
+    [chapter, verses] = split_chapter(rest)
+    [first, last] = split_verses(verses)
 
     {book, to_integer(chapter), to_integer(first), to_integer(last)}
   end
 
   defp split_verses(verses) do
     case String.split(verses, "-") do
-      [first, last | _] -> [first, last]
+      [first, last] -> [first, last]
       [only_verse] -> [only_verse, only_verse]
     end
   end
 
   defp split_book(passage) do
-    String.split(passage, " ")
+    case String.split(passage, " ") do
+      [book, rest] -> [book, rest]
+      [book_num, book_name, rest] -> ["#{book_num} #{book_name}", rest]
+    end
   end
 
   defp split_chapter(chapter_and_verses) do

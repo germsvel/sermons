@@ -1,4 +1,4 @@
-defmodule Sermons.UserSearchesSermons do
+defmodule Sermons.UserSearchesSermonsTest do
   use Sermons.FeatureCase
   import Sermons.Factory
 

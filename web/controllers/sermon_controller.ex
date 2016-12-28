@@ -1,11 +1,12 @@
 defmodule Sermons.SermonController do
   use Sermons.Web, :controller
 
-  alias Sermons.Sermon
+  alias Sermons.Query
 
   def index(conn, %{"q" => q}) do
     query = %{passage: q}
-    sermons = Repo.all(Sermon)
+    sermons = Query.new(q)
+            |> Query.run
     render(conn, "index.html", sermons: sermons, query: query)
   end
 

@@ -3,7 +3,7 @@ defmodule Sermons.SermonController do
 
   alias Sermons.Sermon
 
-  def index(conn, %{"search" => %{"query" => q}}) do
+  def index(conn, %{"q" => q}) do
     query = %{passage: q}
     sermons = Repo.all(Sermon)
     render(conn, "index.html", sermons: sermons, query: query)

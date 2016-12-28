@@ -1,6 +1,6 @@
 <h1>Search for sermons</h1>
-<%= form_for @conn, sermon_path(@conn, :index), [as: :search, method: "get"], fn f -> %>
-  <%= text_input f, :query %>
+<%= form_tag "/", method: "get" do %>
+  <%= tag :input, type: "text", name: "q", id: "query" %>
   <%= submit "Search" %>
 <% end %>
 

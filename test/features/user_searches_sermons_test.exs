@@ -61,7 +61,7 @@ defmodule Sermons.UserSearchesSermons do
   end
 
   defp search_bar do
-    find_element(:id, "search_query")
+    find_element(:id, "query")
   end
 
   defp sermons_list do

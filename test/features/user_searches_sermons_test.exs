@@ -16,6 +16,50 @@ defmodule Sermons.UserSearchesSermons do
     assert length(sermons_list) == 2
   end
 
+  @tag :feature
+  test "user sees the name of the sermon, the passage, the author" do
+    sermon = insert(:sermon)
+    navigate_to "/"
+
+    search_bar
+    |> fill_field("Romans 3:23-24")
+
+    submit_element(search_bar)
+
+    sermon_text = first_sermon |> visible_text
+
+    assert sermon_text =~ sermon.title
+    assert sermon_text =~ sermon.author
+    assert sermon_text =~ sermon.passage
+  end
+
+  @tag :feature
+  test "user sees links to the source and can download the sermon audio" do
+    sermon = insert(:sermon)
+    navigate_to "/"
+
+    search_bar
+    |> fill_field("Romans 3:23-24")
+
+    submit_element(search_bar)
+
+    source_link = link_for("Source")
+    download_link = link_for("Download")
+
+    assert source_link == sermon.source_url
+    assert download_link == sermon.download_url
+  end
+
+  defp link_for(link_text) do
+    first_sermon
+    |> find_within_element(:link_text, link_text)
+    |> attribute_value("href")
+  end
+
+  defp first_sermon do
+    Enum.at(sermons_list, 0)
+  end
+
   defp search_bar do
     find_element(:id, "search_query")
   end

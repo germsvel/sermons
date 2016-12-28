@@ -7,6 +7,7 @@ defmodule Sermons.Sermon do
     field :source_url, :string
     field :download_url, :string
     field :author, :string
+    field :title, :string
 
     timestamps()
   end
@@ -16,7 +17,7 @@ defmodule Sermons.Sermon do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:ministry_name, :passage, :source_url, :download_url, :author])
+    |> cast(params, [:ministry_name, :passage, :source_url, :download_url, :author, :title])
     |> validate_required([:ministry_name, :passage, :source_url, :download_url, :author])
   end
 end

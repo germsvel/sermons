@@ -15,6 +15,7 @@
         <th>Source url</th>
         <th>Download url</th>
         <th>Author</th>
+        <th>Title</th>
 
         <th></th>
       </tr>
@@ -24,9 +25,10 @@
       <tr>
         <td><%= sermon.ministry_name %></td>
         <td><%= sermon.passage %></td>
-        <td><%= sermon.source_url %></td>
-        <td><%= sermon.download_url %></td>
+        <td><%= link("Source", to: sermon.source_url, target: "_blank") %></td>
+        <td><%= link("Download", to: sermon.download_url) %></td>
         <td><%= sermon.author %></td>
+        <td><%= sermon.title %></td>
       </tr>
   <% end %>
     </tbody>

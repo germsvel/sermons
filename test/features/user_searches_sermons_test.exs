@@ -50,6 +50,25 @@ defmodule Sermons.UserSearchesSermonsTest do
     assert download_link == sermon.download_url
   end
 
+  @tag :feature
+  test "search only retrieves relevant sermons" do
+    relevant_sermon = insert(:sermon, %{passage: "Romans 3:23-25", from: 3023, to: 3025})
+    insert(:sermon, %{passage: "Romans 2:20-28", from: 2020, to: 2028})
+    insert(:sermon, %{passage: "Galatians 3:23-25", from: 3023, to: 3025, book: "Galatians"})
+
+    navigate_to "/"
+
+    search_bar
+    |> fill_field("Romans 3:23-24")
+
+    submit_element(search_bar)
+
+    sermon_text = first_sermon |> visible_text
+
+    assert length(sermons_list) == 1
+    assert sermon_text =~ relevant_sermon.passage
+  end
+
   defp link_for(link_text) do
     first_sermon
     |> find_within_element(:link_text, link_text)

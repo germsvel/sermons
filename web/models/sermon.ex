@@ -8,6 +8,9 @@ defmodule Sermons.Sermon do
     field :download_url, :string
     field :author, :string
     field :title, :string
+    field :from, :integer
+    field :to, :integer
+    field :book, :string
 
     timestamps()
   end
@@ -17,7 +20,16 @@ defmodule Sermons.Sermon do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:ministry_name, :passage, :source_url, :download_url, :author, :title])
-    |> validate_required([:ministry_name, :passage, :source_url, :download_url, :author])
+    |> cast(params, [:ministry_name, :passage, :source_url, :download_url, :author, :title, :from, :to, :book])
+    |> validate_required([:ministry_name, :passage, :source_url, :download_url, :author, :from, :to, :book])
+  end
+
+  def relevant_sermons(passage) do
+    from s in __MODULE__,
+      where: (^passage.from >= s.from and ^passage.from <= s.to),
+      or_where: (^passage.to > s.from and ^passage.to <= s.to),
+      or_where: (^passage.from < s.from and ^passage.to > s.to),
+      where: s.book == ^passage.book,
+      order_by:  [asc: s.from, asc: s.to]
   end
 end

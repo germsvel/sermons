@@ -4,12 +4,14 @@ defmodule Sermons.Passage do
   alias Sermons.Passage
   alias Sermons.Verse
 
+  @verses_for_entire_chapter "0-500"
+
   def new(original) do
     {book, from, to} = parse_original(original)
     %Passage{ original: original,
-            book: book,
-            from: from,
-            to: to }
+              book: book,
+              from: from,
+              to: to }
   end
 
   defp parse_original(original) do
@@ -28,6 +30,8 @@ defmodule Sermons.Passage do
 
   defp split_chapter_and_verses(chapter_and_verses) do
     case String.split(chapter_and_verses, ":") do
+      [chapter] ->
+        parse_chapter_and_verses(chapter, @verses_for_entire_chapter)
       [chapter, verses] ->
         parse_chapter_and_verses(chapter, verses)
       [chapter, verse_next_chapter, final_verse] ->

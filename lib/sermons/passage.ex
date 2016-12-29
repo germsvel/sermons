@@ -1,26 +1,26 @@
-defmodule Sermons.Query do
-  defstruct passage: nil, book: nil, from: nil, to: nil
+defmodule Sermons.Passage do
+  defstruct original: nil, book: nil, from: nil, to: nil
 
-  alias Sermons.Query
+  alias Sermons.Passage
   alias Sermons.Verse
 
-  def new(passage) do
-    {book, from, to} = parse_passage(passage)
-    %Query{ passage: passage,
+  def new(original) do
+    {book, from, to} = parse_original(original)
+    %Passage{ original: original,
             book: book,
             from: from,
             to: to }
   end
 
-  defp parse_passage(passage) do
-    {book, rest} = split_book(passage)
+  defp parse_original(original) do
+    {book, rest} = split_book(original)
     {from, to} = split_chapter_and_verses(rest)
 
     {book, from, to}
   end
 
-  defp split_book(passage) do
-    case String.split(passage, " ") do
+  defp split_book(original) do
+    case String.split(original, " ") do
       [book, rest] -> {book, rest}
       [book_num, book_name, rest] -> {"#{book_num} #{book_name}", rest}
     end

@@ -2,15 +2,13 @@ defmodule Sermons.SermonController do
   use Sermons.Web, :controller
 
   def index(conn, %{"q" => q}) do
-    query = Sermons.Query.new(q)
-
-    sql_query = Sermons.Sermon.relevant_sermons(query)
-    sermons = Repo.all sql_query
-    render(conn, "index.html", sermons: sermons, query: query)
+    query = Sermons.Passage.new(q)
+          |> Sermons.Sermon.relevant_sermons
+    sermons = Repo.all query
+    render(conn, "index.html", sermons: sermons, query: q)
   end
 
   def index(conn, _params) do
-    query = %{passage: nil}
-    render(conn, "index.html", sermons: [], query: query)
+    render(conn, "index.html", sermons: [], query: nil)
   end
 end

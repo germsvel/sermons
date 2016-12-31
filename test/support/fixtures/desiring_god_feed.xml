@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~files/feed-premium.xsl"?>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedpress="https://feed.press/xmlns" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0">
+  <channel>
+    <feedpress:locale>en</feedpress:locale>
+    <atom:link rel="hub" href="http://feedpress.superfeedr.com/"/>
+    <image>
+      <link>http://www.desiringgod.org/messages</link>
+      <title><![CDATA[John Piper Sermons]]></title>
+      <url>http://static.feedpress.it/logo/messages.png</url>
+    </image>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Religion &amp; Spirituality/Christianity</media:category>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain"/>
+    <media:credit role="author"/>
+    <media:keywords>sermons, messages, preaching, John Piper, Desiring God</media:keywords>
+    <itunes:new-feed-url>http://feed.desiringgod.org/messages.rss</itunes:new-feed-url>
+    <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+    <googleplay:email>mail@desiringgod.org</googleplay:email>
+    <googleplay:description>John Piper is founder and teacher of desiringGod.org; he is author of more than 50 books and travels regularly to preach and teach. New messages are posted to this podcast as they become available. Piper’s sermons, books, articles, and more are available free of charge at desiringGod.org. We want people everywhere to understand and embrace the truth that God is most glorified in us, when we are most satisfied in him.</googleplay:description>
+    <googleplay:explicit>no</googleplay:explicit>
+    <feedpress:podcastId>196050704</feedpress:podcastId>
+    <copyright>© 2016 Desiring God</copyright>
+    <atom:link href="http://feed.desiringgod.org/messages.rss" rel="self" type="application/rss+xml"/>
+    <itunes:author>Desiring God</itunes:author>
+    <itunes:owner>
+      <itunes:email>mail@desiringgod.org</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <language>en</language>
+    <title>John Piper Sermons</title>
+    <link>http://www.desiringgod.org/messages</link>
+    <description>John Piper is founder and teacher of desiringGod.org; he is author of more than 50 books and travels regularly to preach and teach. New messages are posted to this podcast as they become available. Piper’s sermons, books, articles, and more are available free of charge at desiringGod.org. We want people everywhere to understand and embrace the truth that God is most glorified in us, when we are most satisfied in him.</description>
+    <itunes:summary>John Piper is founder and teacher of desiringGod.org; he is author of more than 50 books and travels regularly to preach and teach. New messages are posted to this podcast as they become available. Piper’s sermons, books, articles, and more are available free of charge at desiringGod.org. We want people everywhere to understand and embrace the truth that God is most glorified in us, when we are most satisfied in him.</itunes:summary>
+    <item>
+      <title>The True Grace of Christian Camaraderie</title>
+      <itunes:image href="http://static.feedpress.it/logo/messages.png"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.<![CDATA[<img src="http://feedpress.me/10727/4985270.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 16 Dec 2016 15:37:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4985270</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-true-grace-of-christian-camaraderie</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4985271/20161222-en-the-true-grace-of-christian-camaraderie.mp3" length="29092140" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4985271/20161222-en-the-true-grace-of-christian-camaraderie.mp3" medium="audio" expression="full">
+        <media:title>The True Grace of Christian Camaraderie</media:title>
+        <media:description type="html">Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161222-en-the-true-grace-of-christian-camaraderie.mp3?1481924333"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-true-grace-of-christian-camaraderie-i8gowa5g-en/landscape/medium_the-true-grace-of-christian-camaraderie-i8gowa5g.jpg?1481891838"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.</itunes:subtitle>
+      <itunes:summary>Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.</itunes:summary>
+    </item>
+    <item>
+      <title>Sons of Liberty and Joy: How a Christian Relates to the State</title>
+      <itunes:image href="https://image.desiringgod.org/sons-of-freedom-and-joy-yuzuq6i2-en/landscape/medium_sons-of-freedom-and-joy-yuzuq6i2.jpg?1478183676"/>
+      <itunes:subtitle>How a Christian Relates to the State</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Christians claim their true citizenship in heaven. When we submit to earthly governments, we do so out of allegiance to Christ's eternal kingdom.<![CDATA[<img src="http://feedpress.me/10727/4734853.gif" height="1" width="1"/>]]></description>
+      <pubDate>Wed, 02 Nov 2016 09:04:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4734853</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/sons-of-liberty-and-joy</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4734854/20161102-en-sons-of-freedom-and-joy.mp3" length="35208591" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4734854/20161102-en-sons-of-freedom-and-joy.mp3" medium="audio" expression="full">
+        <media:title>Sons of Liberty and Joy: How a Christian Relates to the State</media:title>
+        <media:description type="html">Christians claim their true citizenship in heaven. When we submit to earthly governments, we do so out of allegiance to Christ's eternal kingdom.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161102-en-sons-of-freedom-and-joy.mp3?1478184821"/>
+        <media:thumbnail url="https://image.desiringgod.org/sons-of-freedom-and-joy-yuzuq6i2-en/landscape/medium_sons-of-freedom-and-joy-yuzuq6i2.jpg?1478183676"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Christians claim their true citizenship in heaven. When we submit to earthly governments, we do so out of allegiance to Christ's eternal kingdom.</itunes:summary>
+    </item>
+    <item>
+      <title>Put the Attorneys to Work: How to Give the Bible Functional Authority in Your Speech and Writing</title>
+      <itunes:image href="https://image.desiringgod.org/put-the-attorneys-to-work-uzxjcvgs-en/landscape/medium_put-the-attorneys-to-work-uzxjcvgs.jpg?1478724021"/>
+      <itunes:subtitle>How to Give the Bible Functional Authority in Your Speech and Writing</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Christian leaders should exude the Bible. They need to test everything they speak and write through the grid of biblical teaching.<![CDATA[<img src="http://feedpress.me/10727/4778690.gif" height="1" width="1"/>]]></description>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4778690</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/put-the-attorneys-to-work</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4778691/20161225-en-put-the-attorneys-to-work.mp3" length="48973789" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4778691/20161225-en-put-the-attorneys-to-work.mp3" medium="audio" expression="full">
+        <media:title>Put the Attorneys to Work: How to Give the Bible Functional Authority in Your Speech and Writing</media:title>
+        <media:description type="html">Christian leaders should exude the Bible. They need to test everything they speak and write through the grid of biblical teaching.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161225-en-put-the-attorneys-to-work.mp3?1478725881"/>
+        <media:thumbnail url="https://image.desiringgod.org/put-the-attorneys-to-work-uzxjcvgs-en/landscape/medium_put-the-attorneys-to-work-uzxjcvgs.jpg?1478724021"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Christian leaders should exude the Bible. They need to test everything they speak and write through the grid of biblical teaching.</itunes:summary>
+    </item>
+    <item>
+      <title>Teach the Nations to Do the Impossible</title>
+      <itunes:image href="https://image.desiringgod.org/teach-all-nations-to-observe-everything-i-commanded-you-uyy5steb-en/landscape/medium_teach-all-nations-to-observe-everything-i-commanded-you-uyy5steb.jpg?1476723890"/>
+      <itunes:subtitle>Completing the Whole Commission</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Jesus’s supreme authority empowers his Great Commission. We go, teach, and teach others to teach in the confidence that Jesus himself is with us.<![CDATA[<img src="http://feedpress.me/10727/4649102.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4649102</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/teach-all-nations-to-observe-everything-i-commanded-you</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4649103/20161016-en-teach-all-nations-to-observe-everything-i-commanded-you.mp3" length="34774413" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4649103/20161016-en-teach-all-nations-to-observe-everything-i-commanded-you.mp3" medium="audio" expression="full">
+        <media:title>Teach the Nations to Do the Impossible</media:title>
+        <media:description type="html">Jesus’s supreme authority empowers his Great Commission. We go, teach, and teach others to teach in the confidence that Jesus himself is with us.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161016-en-teach-all-nations-to-observe-everything-i-commanded-you.mp3?1476723888"/>
+        <media:thumbnail url="https://image.desiringgod.org/teach-all-nations-to-observe-everything-i-commanded-you-uyy5steb-en/landscape/medium_teach-all-nations-to-observe-everything-i-commanded-you-uyy5steb.jpg?1476723890"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Jesus’s supreme authority empowers his Great Commission. We go, teach, and teach others to teach in the confidence that Jesus himself is with us.</itunes:summary>
+    </item>
+    <item>
+      <title>Fifteen Dreams for the Future of Christian Hedonism</title>
+      <itunes:image href="https://image.desiringgod.org/fifteen-dreams-for-the-future-of-christian-hedonism-pyamj8zs-en/landscape/medium_fifteen-dreams-for-the-future-of-christian-hedonism-pyamj8zs.jpg?1476207259"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Central to biblical Christianity is the pursuit of our joy in God. John Piper expresses fifteen hopes for the future of maximizing our joy in God.<![CDATA[<img src="http://feedpress.me/10727/4622844.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4622844</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/fifteen-dreams-for-the-future-of-christian-hedonism</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4622845/20170215-en-fifteen-dreams-for-the-future-of-christian-hedonism.mp3" length="0" type=""/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4622845/20170215-en-fifteen-dreams-for-the-future-of-christian-hedonism.mp3" medium="audio" expression="full">
+        <media:title>Fifteen Dreams for the Future of Christian Hedonism</media:title>
+        <media:description type="html">Central to biblical Christianity is the pursuit of our joy in God. John Piper expresses fifteen hopes for the future of maximizing our joy in God.</media:description>
+        <media:player url="http://audio.desiringgod.org/20170215-en-fifteen-dreams-for-the-future-of-christian-hedonism.mp3?0"/>
+        <media:thumbnail url="https://image.desiringgod.org/fifteen-dreams-for-the-future-of-christian-hedonism-pyamj8zs-en/landscape/medium_fifteen-dreams-for-the-future-of-christian-hedonism-pyamj8zs.jpg?1476207259"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Central to biblical Christianity is the pursuit of our joy in God. John Piper expresses fifteen hopes for the future of maximizing our joy in God.</itunes:subtitle>
+      <itunes:summary>Central to biblical Christianity is the pursuit of our joy in God. John Piper expresses fifteen hopes for the future of maximizing our joy in God.</itunes:summary>
+    </item>
+    <item>
+      <title>Volcanic Joy</title>
+      <itunes:image href="https://image.desiringgod.org/volcanic-joy-0alsinpq-en/landscape/medium_volcanic-joy-0alsinpq.jpg?1477511746"/>
+      <itunes:subtitle>What Makes the Heart of God Happy</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God’s volcanic passion for his own glory erupts in overflowing delight for his Son and unceasing joy for his children who share in God’s own glorious bliss.<![CDATA[<img src="http://feedpress.me/10727/4701209.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4701209</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/volcanic-joy</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4701210/20161007-en-volcanic-joy.mp3" length="30679798" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4701210/20161007-en-volcanic-joy.mp3" medium="audio" expression="full">
+        <media:title>Volcanic Joy</media:title>
+        <media:description type="html">God’s volcanic passion for his own glory erupts in overflowing delight for his Son and unceasing joy for his children who share in God’s own glorious bliss.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161007-en-volcanic-joy.mp3?1477511742"/>
+        <media:thumbnail url="https://image.desiringgod.org/volcanic-joy-0alsinpq-en/landscape/medium_volcanic-joy-0alsinpq.jpg?1477511746"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>God’s volcanic passion for his own glory erupts in overflowing delight for his Son and unceasing joy for his children who share in God’s own glorious bliss.</itunes:summary>
+    </item>
+    <item>
+      <title>The Natural Act of Reading the Bible Supernaturally</title>
+      <itunes:image href="https://image.desiringgod.org/the-natural-act-of-reading-the-bible-supernaturally-wgihthjd-en/landscape/medium_the-natural-act-of-reading-the-bible-supernaturally-wgihthjd.jpg?1479496341"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>In all true Bible reading, we think and God gives. We work hard to comprehend the authors’ intended meaning while we simultaneously rely on God to help us understand.<![CDATA[<img src="http://feedpress.me/10727/4815524.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sun, 25 Sep 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4815524</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-natural-act-of-reading-the-bible-supernaturally</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4815525/20160925-en-the-natural-act-of-reading-the-bible-supernaturally.mp3" length="60071020" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4815525/20160925-en-the-natural-act-of-reading-the-bible-supernaturally.mp3" medium="audio" expression="full">
+        <media:title>The Natural Act of Reading the Bible Supernaturally</media:title>
+        <media:description type="html">In all true Bible reading, we think and God gives. We work hard to comprehend the authors’ intended meaning while we simultaneously rely on God to help us understand.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160925-en-the-natural-act-of-reading-the-bible-supernaturally.mp3?1479496724"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-natural-act-of-reading-the-bible-supernaturally-wgihthjd-en/landscape/medium_the-natural-act-of-reading-the-bible-supernaturally-wgihthjd.jpg?1479496341"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>In all true Bible reading, we think and God gives. We work hard to comprehend the authors’ intended meaning while we simultaneously rely on God to help us understand.</itunes:subtitle>
+      <itunes:summary>In all true Bible reading, we think and God gives. We work hard to comprehend the authors’ intended meaning while we simultaneously rely on God to help us understand.</itunes:summary>
+    </item>
+    <item>
+      <title>The Supernatural Act of Reading the Bible</title>
+      <itunes:image href="https://image.desiringgod.org/the-supernatural-act-of-reading-the-bible-lqq6comx-en/landscape/medium_the-supernatural-act-of-reading-the-bible-lqq6comx.jpg?1479493434"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Whenever we read the Bible, we depend on God’s supernatural power to illumine the words, sentences, and paragraphs with his glory.<![CDATA[<img src="http://feedpress.me/10727/4815526.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sat, 24 Sep 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4815526</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-supernatural-act-of-reading-the-bible</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4815527/20160924-en-the-supernatural-act-of-reading-the-bible.mp3" length="51705292" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4815527/20160924-en-the-supernatural-act-of-reading-the-bible.mp3" medium="audio" expression="full">
+        <media:title>The Supernatural Act of Reading the Bible</media:title>
+        <media:description type="html">Whenever we read the Bible, we depend on God’s supernatural power to illumine the words, sentences, and paragraphs with his glory.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160924-en-the-supernatural-act-of-reading-the-bible.mp3?1479496635"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-supernatural-act-of-reading-the-bible-lqq6comx-en/landscape/medium_the-supernatural-act-of-reading-the-bible-lqq6comx.jpg?1479493434"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Whenever we read the Bible, we depend on God’s supernatural power to illumine the words, sentences, and paragraphs with his glory.</itunes:subtitle>
+      <itunes:summary>Whenever we read the Bible, we depend on God’s supernatural power to illumine the words, sentences, and paragraphs with his glory.</itunes:summary>
+    </item>
+    <item>
+      <title>The Ultimate Goal of Reading the Bible</title>
+      <itunes:image href="https://image.desiringgod.org/the-ultimate-goal-of-reading-the-bible-dcnp5iap-en/landscape/medium_the-ultimate-goal-of-reading-the-bible-dcnp5iap.jpg?1479491634"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>The Bible is indispensable to the Christian life. Without the written Word, we simply could not know the Incarnate Word.<![CDATA[<img src="http://feedpress.me/10727/4815528.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4815528</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-ultimate-goal-of-reading-the-bible</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4815529/20160923-en-the-ultimate-goal-of-reading-the-bible.mp3" length="49477499" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4815529/20160923-en-the-ultimate-goal-of-reading-the-bible.mp3" medium="audio" expression="full">
+        <media:title>The Ultimate Goal of Reading the Bible</media:title>
+        <media:description type="html">The Bible is indispensable to the Christian life. Without the written Word, we simply could not know the Incarnate Word.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160923-en-the-ultimate-goal-of-reading-the-bible.mp3?1479496543"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-ultimate-goal-of-reading-the-bible-dcnp5iap-en/landscape/medium_the-ultimate-goal-of-reading-the-bible-dcnp5iap.jpg?1479491634"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>The Bible is indispensable to the Christian life. Without the written Word, we simply could not know the Incarnate Word.</itunes:subtitle>
+      <itunes:summary>The Bible is indispensable to the Christian life. Without the written Word, we simply could not know the Incarnate Word.</itunes:summary>
+    </item>
+    <item>
+      <title>Jesus Is the Test of True Faith</title>
+      <itunes:image href="https://image.desiringgod.org/jesus-is-the-test-of-true-faith-nps1p3af-en/landscape/medium_jesus-is-the-test-of-true-faith-nps1p3af.jpg?1474484950"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Christians embrace both the New Testament and the Old because every single page of the Scriptures points to Jesus who fulfills them. <![CDATA[<img src="http://feedpress.me/10727/4467445.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4467445</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/jesus-is-the-test-of-true-faith</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4467446/282928612.mp3" length="40873148" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4467446/282928612.mp3" medium="audio" expression="full">
+        <media:title>Jesus Is the Test of True Faith</media:title>
+        <media:description type="html">Christians embrace both the New Testament and the Old because every single page of the Scriptures points to Jesus who fulfills them. </media:description>
+        <media:player url="http://feeds.soundcloud.com/stream/282928612.mp3"/>
+        <media:thumbnail url="https://image.desiringgod.org/jesus-is-the-test-of-true-faith-nps1p3af-en/landscape/medium_jesus-is-the-test-of-true-faith-nps1p3af.jpg?1474484950"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Christians embrace both the New Testament and the Old because every single page of the Scriptures points to Jesus who fulfills them.</itunes:subtitle>
+      <itunes:summary>Christians embrace both the New Testament and the Old because every single page of the Scriptures points to Jesus who fulfills them. </itunes:summary>
+    </item>
+    <item>
+      <title>Jesus Christ Egomaniac? What Piper Said at Google</title>
+      <itunes:image href="https://image.desiringgod.org/jesus-christ-egomaniac-hrtcspny-en/landscape/medium_jesus-christ-egomaniac-hrtcspny.jpg?1470945321"/>
+      <itunes:subtitle>What Piper Said at Google</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God is the one being in the universe for whom self-exaltation is not the act of a needy ego, but an act of infinite giving.<![CDATA[<img src="http://feedpress.me/10727/4121621.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4121621</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/was-jesus-an-egomaniac</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4597596/20160729-en-was-jesus-an-egomaniac.mp3" length="46766146" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4597596/20160729-en-was-jesus-an-egomaniac.mp3" medium="audio" expression="full">
+        <media:title>Jesus Christ Egomaniac? What Piper Said at Google</media:title>
+        <media:description type="html">God is the one being in the universe for whom self-exaltation is not the act of a needy ego, but an act of infinite giving.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160729-en-was-jesus-an-egomaniac.mp3?1470926612"/>
+        <media:thumbnail url="https://image.desiringgod.org/jesus-christ-egomaniac-hrtcspny-en/landscape/medium_jesus-christ-egomaniac-hrtcspny.jpg?1470945321"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>God is the one being in the universe for whom self-exaltation is not the act of a needy ego, but an act of infinite giving.</itunes:summary>
+    </item>
+    <item>
+      <title>The Inexplicable Life: Humility, Hope, and Love in Suffering</title>
+      <itunes:image href="https://image.desiringgod.org/the-inexplicable-life-xsbeh7ce-en/landscape/medium_the-inexplicable-life-xsbeh7ce.jpg?1466706896"/>
+      <itunes:subtitle>Humility, Hope, and Love in Suffering</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Christians can show the world the hope they have within through joyful, humble willingness to suffer wrong and serve, rather than return evil for evil.<![CDATA[<img src="http://feedpress.me/10727/3695954.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3695954</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-inexplicable-life</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587526/20160618-en-the-inexplicable-life.mp3" length="62127285" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587526/20160618-en-the-inexplicable-life.mp3" medium="audio" expression="full">
+        <media:title>The Inexplicable Life: Humility, Hope, and Love in Suffering</media:title>
+        <media:description type="html">Christians can show the world the hope they have within through joyful, humble willingness to suffer wrong and serve, rather than return evil for evil.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160618-en-the-inexplicable-life.mp3?1466706956"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-inexplicable-life-xsbeh7ce-en/landscape/medium_the-inexplicable-life-xsbeh7ce.jpg?1466706896"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Christians can show the world the hope they have within through joyful, humble willingness to suffer wrong and serve, rather than return evil for evil.</itunes:summary>
+    </item>
+    <item>
+      <title>Life-Risking Courage in the Cause of Love</title>
+      <itunes:image href="https://image.desiringgod.org/life-risking-courage-in-the-cause-of-love-8b6x2peq-en/landscape/medium_life-risking-courage-in-the-cause-of-love-8b6x2peq.jpg?1473453340"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God supplies the sustaining grace we need to love others well as we seriously pursue our joy in him. <![CDATA[<img src="http://feedpress.me/10727/4376269.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4376269</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/life-risking-courage-in-the-cause-of-love--2</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4376270/280483893.mp3" length="91069183" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4376270/280483893.mp3" medium="audio" expression="full">
+        <media:title>Life-Risking Courage in the Cause of Love</media:title>
+        <media:description type="html">God supplies the sustaining grace we need to love others well as we seriously pursue our joy in him. </media:description>
+        <media:player url="http://feeds.soundcloud.com/stream/280483893.mp3"/>
+        <media:thumbnail url="https://image.desiringgod.org/life-risking-courage-in-the-cause-of-love-8b6x2peq-en/landscape/medium_life-risking-courage-in-the-cause-of-love-8b6x2peq.jpg?1473453340"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>God supplies the sustaining grace we need to love others well as we seriously pursue our joy in him.</itunes:subtitle>
+      <itunes:summary>God supplies the sustaining grace we need to love others well as we seriously pursue our joy in him. </itunes:summary>
+    </item>
+    <item>
+      <title>Why God Created the World</title>
+      <itunes:image href="https://image.desiringgod.org/why-god-created-the-world-gjjxgd4x-en/landscape/medium_why-god-created-the-world-gjjxgd4x.jpg?1472488496"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God created the world, and sustains it every second, to show the worth of his Son’s redeeming work.<![CDATA[<img src="http://feedpress.me/10727/4300354.gif" height="1" width="1"/>]]></description>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4300354</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/why-god-created-the-world</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587740/20160602-en-why-god-created-the-world.mp3" length="67664921" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587740/20160602-en-why-god-created-the-world.mp3" medium="audio" expression="full">
+        <media:title>Why God Created the World</media:title>
+        <media:description type="html">God created the world, and sustains it every second, to show the worth of his Son’s redeeming work.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160602-en-why-god-created-the-world.mp3?1472663776"/>
+        <media:thumbnail url="https://image.desiringgod.org/why-god-created-the-world-gjjxgd4x-en/landscape/medium_why-god-created-the-world-gjjxgd4x.jpg?1472488496"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>God created the world, and sustains it every second, to show the worth of his Son’s redeeming work.</itunes:subtitle>
+      <itunes:summary>God created the world, and sustains it every second, to show the worth of his Son’s redeeming work.</itunes:summary>
+    </item>
+    <item>
+      <title>Prayer: How to Do the Humanly Impossible</title>
+      <itunes:image href="https://image.desiringgod.org/prayer-the-peaceful-path-to-doing-the-humanly-impossible-dl6q9ib8-en/landscape/medium_prayer-the-peaceful-path-to-doing-the-humanly-impossible-dl6q9ib8.jpg?1468944183"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God is glorified when Christians humble themselves openly as people who are not ashamed to beg for help.<![CDATA[<img src="http://feedpress.me/10727/3919371.gif" height="1" width="1"/>]]></description>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3919371</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/prayer-the-peaceful-path-to-doing-the-humanly-impossible</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587527/20160525-en-prayer-the-peaceful-path-to-doing-the-humanly-impossible.mp3" length="47789740" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587527/20160525-en-prayer-the-peaceful-path-to-doing-the-humanly-impossible.mp3" medium="audio" expression="full">
+        <media:title>Prayer: How to Do the Humanly Impossible</media:title>
+        <media:description type="html">God is glorified when Christians humble themselves openly as people who are not ashamed to beg for help.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160525-en-prayer-the-peaceful-path-to-doing-the-humanly-impossible.mp3?1468944205"/>
+        <media:thumbnail url="https://image.desiringgod.org/prayer-the-peaceful-path-to-doing-the-humanly-impossible-dl6q9ib8-en/landscape/medium_prayer-the-peaceful-path-to-doing-the-humanly-impossible-dl6q9ib8.jpg?1468944183"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>God is glorified when Christians humble themselves openly as people who are not ashamed to beg for help.</itunes:subtitle>
+      <itunes:summary>God is glorified when Christians humble themselves openly as people who are not ashamed to beg for help.</itunes:summary>
+    </item>
+    <item>
+      <title>The Heart of the Gospel: The Righteousness from God that Depends on Faith</title>
+      <itunes:image href="https://image.desiringgod.org/the-heart-of-the-gospel-59w5q3iv-en/landscape/medium_the-heart-of-the-gospel-59w5q3iv.jpg?1468583412"/>
+      <itunes:subtitle>Righteousness from God That Depends on Faith</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Christ’s righteousness imputed to sinners through faith undergirds the whole of the Christian faith. <![CDATA[<img src="http://feedpress.me/10727/3882836.gif" height="1" width="1"/>]]></description>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3882836</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-heart-of-the-gospel</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587528/20160524-en-the-heart-of-the-gospel.mp3" length="47790873" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587528/20160524-en-the-heart-of-the-gospel.mp3" medium="audio" expression="full">
+        <media:title>The Heart of the Gospel: The Righteousness from God that Depends on Faith</media:title>
+        <media:description type="html">Christ’s righteousness imputed to sinners through faith undergirds the whole of the Christian faith. </media:description>
+        <media:player url="http://audio.desiringgod.org/20160524-en-the-heart-of-the-gospel.mp3?1468583456"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-heart-of-the-gospel-59w5q3iv-en/landscape/medium_the-heart-of-the-gospel-59w5q3iv.jpg?1468583412"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Christ’s righteousness imputed to sinners through faith undergirds the whole of the Christian faith. </itunes:summary>
+    </item>
+    <item>
+      <title>The Roots of Fearless Unity in the Gospel</title>
+      <itunes:image href="https://image.desiringgod.org/the-roots-of-fearless-unity-in-the-gospel-zttajgz1-en/landscape/medium_the-roots-of-fearless-unity-in-the-gospel-zttajgz1.jpg?1468352474"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Humble unity in the gospel beautifully displays to a watching world that Jesus is more satisfying than getting your own way. <![CDATA[<img src="http://feedpress.me/10727/3858597.gif" height="1" width="1"/>]]></description>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3858597</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-roots-of-fearless-unity-in-the-gospel</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587529/20160523-en-the-roots-of-fearless-unity-in-the-gospel.mp3" length="48165673" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587529/20160523-en-the-roots-of-fearless-unity-in-the-gospel.mp3" medium="audio" expression="full">
+        <media:title>The Roots of Fearless Unity in the Gospel</media:title>
+        <media:description type="html">Humble unity in the gospel beautifully displays to a watching world that Jesus is more satisfying than getting your own way. </media:description>
+        <media:player url="http://audio.desiringgod.org/20160523-en-the-roots-of-fearless-unity-in-the-gospel.mp3?1468352523"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-roots-of-fearless-unity-in-the-gospel-zttajgz1-en/landscape/medium_the-roots-of-fearless-unity-in-the-gospel-zttajgz1.jpg?1468352474"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Humble unity in the gospel beautifully displays to a watching world that Jesus is more satisfying than getting your own way.</itunes:subtitle>
+      <itunes:summary>Humble unity in the gospel beautifully displays to a watching world that Jesus is more satisfying than getting your own way. </itunes:summary>
+    </item>
+    <item>
+      <title>The Glory of Christ: Ultimate Goal, Alienating Problem, All-Transforming Answer</title>
+      <itunes:image href="https://image.desiringgod.org/the-glory-of-christ-pq7zuomp-en/landscape/medium_the-glory-of-christ-pq7zuomp.jpg?1467751891"/>
+      <itunes:subtitle>Ultimate Goal, Alienating Problem, All-Transforming Answer</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God’s pursuit of his own glory opens the door to a feast of beauty and truth that satisfies the human soul forever. <![CDATA[<img src="http://feedpress.me/10727/3802836.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3802836</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-glory-of-christ</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4731007/20160522-en-the-glory-of-christ.mp3" length="45316139" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4731007/20160522-en-the-glory-of-christ.mp3" medium="audio" expression="full">
+        <media:title>The Glory of Christ: Ultimate Goal, Alienating Problem, All-Transforming Answer</media:title>
+        <media:description type="html">God’s pursuit of his own glory opens the door to a feast of beauty and truth that satisfies the human soul forever. </media:description>
+        <media:player url="http://audio.desiringgod.org/20160522-en-the-glory-of-christ.mp3?1478119090"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-glory-of-christ-pq7zuomp-en/landscape/medium_the-glory-of-christ-pq7zuomp.jpg?1467751891"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>God’s pursuit of his own glory opens the door to a feast of beauty and truth that satisfies the human soul forever. </itunes:summary>
+    </item>
+    <item>
+      <title>How to Experience the Outpouring of God’s Love</title>
+      <itunes:image href="https://image.desiringgod.org/how-to-experience-the-outpouring-of-god-s-love-tq5t92in-en/landscape/medium_how-to-experience-the-outpouring-of-god-s-love-tq5t92in.jpg?1462565949"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God doesn’t merely give us arguments for his love, but he gives us a real, authentic experience of his love!  <![CDATA[<img src="http://feedpress.me/10727/3263586.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sun, 01 May 2016 12:16:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3263586</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/how-to-experience-the-outpouring-of-god-s-love</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587530/20160501-en-how-to-experience-the-outpouring-of-god-s-love.mp3" length="32193840" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587530/20160501-en-how-to-experience-the-outpouring-of-god-s-love.mp3" medium="audio" expression="full">
+        <media:title>How to Experience the Outpouring of God’s Love</media:title>
+        <media:description type="html">God doesn’t merely give us arguments for his love, but he gives us a real, authentic experience of his love!  </media:description>
+        <media:player url="http://audio.desiringgod.org/20160501-en-how-to-experience-the-outpouring-of-god-s-love.mp3?1462571606"/>
+        <media:thumbnail url="https://image.desiringgod.org/how-to-experience-the-outpouring-of-god-s-love-tq5t92in-en/landscape/medium_how-to-experience-the-outpouring-of-god-s-love-tq5t92in.jpg?1462565949"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>God doesn’t merely give us arguments for his love, but he gives us a real, authentic experience of his love!</itunes:subtitle>
+      <itunes:summary>God doesn’t merely give us arguments for his love, but he gives us a real, authentic experience of his love!  </itunes:summary>
+    </item>
+    <item>
+      <title>How We Know the Bible Is True</title>
+      <itunes:image href="https://image.desiringgod.org/god-s-peculiar-glory-fqrfgprx-en/landscape/medium_god-s-peculiar-glory-fqrfgprx.jpg?1466100022"/>
+      <itunes:subtitle>How We Know the Bible Is True</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>You don’t need complicated arguments to know the Bible is true. You can see the Glory for yourself.<![CDATA[<img src="http://feedpress.me/10727/3636729.gif" height="1" width="1"/>]]></description>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3636729</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/gods-peculiar-glory</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587531/20160428-en-god-s-peculiar-glory.mp3" length="70541370" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587531/20160428-en-god-s-peculiar-glory.mp3" medium="audio" expression="full">
+        <media:title>How We Know the Bible Is True</media:title>
+        <media:description type="html">You don’t need complicated arguments to know the Bible is true. You can see the Glory for yourself.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160428-en-god-s-peculiar-glory.mp3?1466197453"/>
+        <media:thumbnail url="https://image.desiringgod.org/god-s-peculiar-glory-fqrfgprx-en/landscape/medium_god-s-peculiar-glory-fqrfgprx.jpg?1466100022"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>You don’t need complicated arguments to know the Bible is true. You can see the Glory for yourself.</itunes:summary>
+    </item>
+    <item>
+      <title>Living and Loving by Faith in Future Grace</title>
+      <itunes:image href="https://image.desiringgod.org/living-and-loving-by-faith-in-future-grace-lofy6knz-en/landscape/medium_living-and-loving-by-faith-in-future-grace-lofy6knz.jpg?1467312298"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Where will we find the emotional power to keep us from returning evil for evil? Not in vague notions of grace, but by trusting God’s specific promises.<![CDATA[<img src="http://feedpress.me/10727/3759917.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3759917</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/living-and-loving-by-faith-in-future-grace</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587532/20160422-en-living-and-loving-by-faith-in-future-grace.mp3" length="82673658" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587532/20160422-en-living-and-loving-by-faith-in-future-grace.mp3" medium="audio" expression="full">
+        <media:title>Living and Loving by Faith in Future Grace</media:title>
+        <media:description type="html">Where will we find the emotional power to keep us from returning evil for evil? Not in vague notions of grace, but by trusting God’s specific promises.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160422-en-living-and-loving-by-faith-in-future-grace.mp3?1467312322"/>
+        <media:thumbnail url="https://image.desiringgod.org/living-and-loving-by-faith-in-future-grace-lofy6knz-en/landscape/medium_living-and-loving-by-faith-in-future-grace-lofy6knz.jpg?1467312298"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Where will we find the emotional power to keep us from returning evil for evil? Not in vague notions of grace, but by trusting God’s specific promises.</itunes:subtitle>
+      <itunes:summary>Where will we find the emotional power to keep us from returning evil for evil? Not in vague notions of grace, but by trusting God’s specific promises.</itunes:summary>
+    </item>
+    <item>
+      <title>How Our Children Can Know the Bible Is True</title>
+      <itunes:image href="https://image.desiringgod.org/how-our-children-can-know-the-bible-is-true-h2gqdoq4-en/landscape/medium_how-our-children-can-know-the-bible-is-true-h2gqdoq4.jpg?1461961400"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>I want to help parents (and leaders of children’s ministries) see how the Bible shows itself to be true — and how to communicate this vital truth to our children.<![CDATA[<img src="http://feedpress.me/10727/3145645.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 15 Apr 2016 09:48:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3145645</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/believe-the-whole-counsel-of-god</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587174/20160415-en-believe-the-whole-counsel-of-god.mp3" length="56894806" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587174/20160415-en-believe-the-whole-counsel-of-god.mp3" medium="audio" expression="full">
+        <media:title>How Our Children Can Know the Bible Is True</media:title>
+        <media:description type="html">I want to help parents (and leaders of children’s ministries) see how the Bible shows itself to be true — and how to communicate this vital truth to our children.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160415-en-believe-the-whole-counsel-of-god.mp3?1461337587"/>
+        <media:thumbnail url="https://image.desiringgod.org/how-our-children-can-know-the-bible-is-true-h2gqdoq4-en/landscape/medium_how-our-children-can-know-the-bible-is-true-h2gqdoq4.jpg?1461961400"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>I want to help parents (and leaders of children’s ministries) see how the Bible shows itself to be true — and how to communicate this vital truth to our children.</itunes:subtitle>
+      <itunes:summary>I want to help parents (and leaders of children’s ministries) see how the Bible shows itself to be true — and how to communicate this vital truth to our children.</itunes:summary>
+    </item>
+    <item>
+      <title>The Bondage of the Will,  the Sovereignty of Grace, and the Glory of God</title>
+      <itunes:image href="https://image.desiringgod.org/the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god-mkediv6f-en/landscape/medium_the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god-mkediv6f.jpg?1461696154"/>
+      <itunes:subtitle>Together for the Gospel</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>For Martin Luther, the issue of man’s bondage to sin, and moral inability to believe or obey, was the root issue of the Reformation — and the lynchpin of Protestantism.<![CDATA[<img src="http://feedpress.me/10727/3175241.gif" height="1" width="1"/>]]></description>
+      <pubDate>Wed, 13 Apr 2016 13:37:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3175241</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4586890/20160413-en-the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god.mp3" length="51042524" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4586890/20160413-en-the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god.mp3" medium="audio" expression="full">
+        <media:title>The Bondage of the Will,  the Sovereignty of Grace, and the Glory of God</media:title>
+        <media:description type="html">For Martin Luther, the issue of man’s bondage to sin, and moral inability to believe or obey, was the root issue of the Reformation — and the lynchpin of Protestantism.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160413-en-the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god.mp3?1461696198"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god-mkediv6f-en/landscape/medium_the-bondage-of-the-will-the-sovereignty-of-grace-and-the-glory-of-god-mkediv6f.jpg?1461696154"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>For Martin Luther, the issue of man’s bondage to sin, and moral inability to believe or obey, was the root issue of the Reformation — and the lynchpin of Protestantism.</itunes:summary>
+    </item>
+    <item>
+      <title>Love Her More, Love Her Less: Living for God’s Glory in Marriage</title>
+      <itunes:image href="https://image.desiringgod.org/love-her-more-love-her-less-qc6ejtxk-en/landscape/medium_love-her-more-love-her-less-qc6ejtxk.jpg?1479933545"/>
+      <itunes:subtitle>Living for God’s Glory in Marriage</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>You love your spouse more when you love them less than God. If God is not central, your marriage will not glorify God as he intended.<![CDATA[<img src="http://feedpress.me/10727/4854966.gif" height="1" width="1"/>]]></description>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4854966</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/love-her-more-love-her-less</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4854967/20161231-en-love-her-more-love-her-less.mp3" length="19093822" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4854967/20161231-en-love-her-more-love-her-less.mp3" medium="audio" expression="full">
+        <media:title>Love Her More, Love Her Less: Living for God’s Glory in Marriage</media:title>
+        <media:description type="html">You love your spouse more when you love them less than God. If God is not central, your marriage will not glorify God as he intended.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161231-en-love-her-more-love-her-less.mp3?1479937624"/>
+        <media:thumbnail url="https://image.desiringgod.org/love-her-more-love-her-less-qc6ejtxk-en/landscape/medium_love-her-more-love-her-less-qc6ejtxk.jpg?1479933545"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>You love your spouse more when you love them less than God. If God is not central, your marriage will not glorify God as he intended.</itunes:summary>
+    </item>
+    <item>
+      <title>Seven Resolutions for Finishing Well</title>
+      <itunes:image href="https://image.desiringgod.org/seven-resolutions-for-finishing-well-mjciwor7-en/landscape/medium_seven-resolutions-for-finishing-well-mjciwor7.jpg?1463161556"/>
+      <itunes:subtitle>A Funeral Meditation </itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>There won’t be any phoniness in heaven. There will only be complete authenticity. We will discover what childlikeness was really meant to be.<![CDATA[<img src="http://feedpress.me/10727/3324298.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 11 Mar 2016 12:14:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/3324298</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/seven-resolutions-for-finishing-well</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4623410/20160311-en-seven-resolutions-for-finishing-well.mp3" length="43273276" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4623410/20160311-en-seven-resolutions-for-finishing-well.mp3" medium="audio" expression="full">
+        <media:title>Seven Resolutions for Finishing Well</media:title>
+        <media:description type="html">There won’t be any phoniness in heaven. There will only be complete authenticity. We will discover what childlikeness was really meant to be.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160311-en-seven-resolutions-for-finishing-well.mp3?1463161597"/>
+        <media:thumbnail url="https://image.desiringgod.org/seven-resolutions-for-finishing-well-mjciwor7-en/landscape/medium_seven-resolutions-for-finishing-well-mjciwor7.jpg?1463161556"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>There won’t be any phoniness in heaven. There will only be complete authenticity. We will discover what childlikeness was really meant to be.</itunes:summary>
+    </item>
+    <item>
+      <title>Three Sightings of the Glory of Jesus</title>
+      <itunes:image href="https://image.desiringgod.org/three-sightings-of-the-glory-of-jesus-fowxasmo-en/landscape/medium_three-sightings-of-the-glory-of-jesus-fowxasmo.jpg?1454619941"/>
+      <itunes:subtitle>Funeral Meditation for Char Ransom</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>There isn’t anything greater than to see the Son of God in all his divine beauty and radiance and greatness, and be supremely and increasingly happy in him forever.<![CDATA[<img src="http://feedpress.me/10727/2537385.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 29 Jan 2016 15:03:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2537385</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/three-sightings-of-the-glory-of-jesus</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4624414/20160129-en-three-sightings-of-the-glory-of-jesus.mp3" length="35455420" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4624414/20160129-en-three-sightings-of-the-glory-of-jesus.mp3" medium="audio" expression="full">
+        <media:title>Three Sightings of the Glory of Jesus</media:title>
+        <media:description type="html">There isn’t anything greater than to see the Son of God in all his divine beauty and radiance and greatness, and be supremely and increasingly happy in him forever.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160129-en-three-sightings-of-the-glory-of-jesus.mp3?1454633154"/>
+        <media:thumbnail url="https://image.desiringgod.org/three-sightings-of-the-glory-of-jesus-fowxasmo-en/landscape/medium_three-sightings-of-the-glory-of-jesus-fowxasmo.jpg?1454619941"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>There isn’t anything greater than to see the Son of God in all his divine beauty and radiance and greatness, and be supremely and increasingly happy in him forever.</itunes:summary>
+    </item>
+    <item>
+      <title>Preaching to a Persecuted People: The Pastor as Leader, Comforter, and Guide</title>
+      <itunes:image href="https://image.desiringgod.org/preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide-5mg3lrh1-en/landscape/medium_preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide-5mg3lrh1.jpg?1453863556"/>
+      <itunes:subtitle>Bethlehem 2016 Conference for Pastors and Church Leaders</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>In the new America, a stage is being set as never before for the display of the glory of God through the joy of his grieving people.<![CDATA[<img src="http://feedpress.me/10727/2439122.gif" height="1" width="1"/>]]></description>
+      <pubDate>Tue, 26 Jan 2016 22:45:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2439122</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587533/20160126-en-preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide.mp3" length="53118701" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587533/20160126-en-preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide.mp3" medium="audio" expression="full">
+        <media:title>Preaching to a Persecuted People: The Pastor as Leader, Comforter, and Guide</media:title>
+        <media:description type="html">In the new America, a stage is being set as never before for the display of the glory of God through the joy of his grieving people.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160126-en-preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide.mp3?1453909775"/>
+        <media:thumbnail url="https://image.desiringgod.org/preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide-5mg3lrh1-en/landscape/medium_preaching-to-a-persecuted-people-the-pastor-as-leader-comforter-and-guide-5mg3lrh1.jpg?1453863556"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>In the new America, a stage is being set as never before for the display of the glory of God through the joy of his grieving people.</itunes:summary>
+    </item>
+    <item>
+      <title>Think It Not Strange: Fiery Trials and the Testimony of Christ</title>
+      <itunes:image href="https://image.desiringgod.org/think-it-not-strange-fiery-trials-and-the-testimony-of-christ-9vpimptd-en/landscape/medium_think-it-not-strange-fiery-trials-and-the-testimony-of-christ-9vpimptd.jpg?1453861953"/>
+      <itunes:subtitle>Bethlehem 2016 Conference for Pastors and Church Leaders</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God has planned that the sufferings of Christ save us from the sufferings of punishment, not the sufferings of purification.<![CDATA[<img src="http://feedpress.me/10727/2426250.gif" height="1" width="1"/>]]></description>
+      <pubDate>Mon, 25 Jan 2016 20:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2426250</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/think-it-not-strange-fiery-trials-and-the-testimony-of-christ</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587534/20160125-en-think-it-not-strange-fiery-trials-and-the-testimony-of-christ.mp3" length="43703104" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587534/20160125-en-think-it-not-strange-fiery-trials-and-the-testimony-of-christ.mp3" medium="audio" expression="full">
+        <media:title>Think It Not Strange: Fiery Trials and the Testimony of Christ</media:title>
+        <media:description type="html">God has planned that the sufferings of Christ save us from the sufferings of punishment, not the sufferings of purification.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160125-en-think-it-not-strange-fiery-trials-and-the-testimony-of-christ.mp3?1453784189"/>
+        <media:thumbnail url="https://image.desiringgod.org/think-it-not-strange-fiery-trials-and-the-testimony-of-christ-9vpimptd-en/landscape/medium_think-it-not-strange-fiery-trials-and-the-testimony-of-christ-9vpimptd.jpg?1453861953"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>God has planned that the sufferings of Christ save us from the sufferings of punishment, not the sufferings of purification.</itunes:summary>
+    </item>
+    <item>
+      <title>The Beast, the Book, and the Beauty of the Lamb</title>
+      <itunes:image href="https://image.desiringgod.org/the-beast-the-book-and-the-beauty-of-the-lamb-en/landscape/medium_the-beast-the-book-and-the-beauty-of-the-lamb.jpg?1453220968"/>
+      <itunes:subtitle>Passion 2016</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>“The Book of the Life of the Lamb who was Slain” is an eternal book, pledging God's redemptive act in history, and securing God's eternal praise from his redeemed.<![CDATA[<img src="http://feedpress.me/10727/2383981.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sun, 03 Jan 2016 10:40:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2383981</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-beast-the-book-and-the-beauty-of-the-lamb</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587742/20160203-en-the-beast-the-book-and-the-beauty-of-the-lamb.mp3" length="75618529" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587742/20160203-en-the-beast-the-book-and-the-beauty-of-the-lamb.mp3" medium="audio" expression="full">
+        <media:title>The Beast, the Book, and the Beauty of the Lamb</media:title>
+        <media:description type="html">“The Book of the Life of the Lamb who was Slain” is an eternal book, pledging God's redemptive act in history, and securing God's eternal praise from his redeemed.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160203-en-the-beast-the-book-and-the-beauty-of-the-lamb.mp3?1452876192"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-beast-the-book-and-the-beauty-of-the-lamb-en/landscape/medium_the-beast-the-book-and-the-beauty-of-the-lamb.jpg?1453220968"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>“The Book of the Life of the Lamb who was Slain” is an eternal book, pledging God's redemptive act in history, and securing God's eternal praise from his redeemed.</itunes:summary>
+    </item>
+    <item>
+      <title>One Design </title>
+      <itunes:image href="https://image.desiringgod.org/one-design-en/legacy_landscape/medium_one-design.jpg?1452019378"/>
+      <itunes:subtitle>Campus Outreach 2015 New Years Conference </itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Seminar in gender complementarity for college students at Campus Outreach New Year’s Conference<![CDATA[<img src="http://feedpress.me/10727/2256895.gif" height="1" width="1"/>]]></description>
+      <pubDate>Tue, 29 Dec 2015 10:03:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2256895</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/only-one-design</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4624415/20151231-en-only-one-design.mp3" length="41023434" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4624415/20151231-en-only-one-design.mp3" medium="audio" expression="full">
+        <media:title>One Design </media:title>
+        <media:description type="html">Seminar in gender complementarity for college students at Campus Outreach New Year’s Conference</media:description>
+        <media:player url="http://audio.desiringgod.org/20151231-en-only-one-design.mp3?1451491591"/>
+        <media:thumbnail url="https://image.desiringgod.org/one-design-en/legacy_landscape/medium_one-design.jpg?1452019378"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Seminar in gender complementarity for college students at Campus Outreach New Year’s Conference</itunes:summary>
+    </item>
+    <item>
+      <title>One Mission</title>
+      <itunes:image href="https://image.desiringgod.org/one-mission-en/legacy_landscape/medium_one-mission.jpg?0"/>
+      <itunes:subtitle>Campus Outreach 2015 New Years Conference</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>The mission given to every Christian is to declare and demonstrate that the glory of Christ is more precious than life.<![CDATA[<img src="http://feedpress.me/10727/2281465.gif" height="1" width="1"/>]]></description>
+      <pubDate>Tue, 29 Dec 2015 07:59:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2281465</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/only-one-mission</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4591380/20160131-en-only-one-mission.mp3" length="40359834" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4591380/20160131-en-only-one-mission.mp3" medium="audio" expression="full">
+        <media:title>One Mission</media:title>
+        <media:description type="html">The mission given to every Christian is to declare and demonstrate that the glory of Christ is more precious than life.</media:description>
+        <media:player url="http://audio.desiringgod.org/20160131-en-only-one-mission.mp3?1451920204"/>
+        <media:thumbnail url="https://image.desiringgod.org/one-mission-en/legacy_landscape/medium_one-mission.jpg?0"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>The mission given to every Christian is to declare and demonstrate that the glory of Christ is more precious than life.</itunes:summary>
+    </item>
+    <item>
+      <title>One Passion</title>
+      <itunes:image href="https://image.desiringgod.org/one-passion-en/legacy_landscape/medium_one-passion.jpg?0"/>
+      <itunes:subtitle>Campus Outreach 2015 New Years Conference </itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>There is an all-permeating passion that belongs in the saved human soul, and that will not be crushed by the moral chaos of these days, or by the suffering that Christians must endure.<![CDATA[<img src="http://feedpress.me/10727/2255723.gif" height="1" width="1"/>]]></description>
+      <pubDate>Tue, 29 Dec 2015 03:56:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2255723</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/only-one-passion</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4624416/20151230-en-only-one-passion.mp3" length="39375354" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4624416/20151230-en-only-one-passion.mp3" medium="audio" expression="full">
+        <media:title>One Passion</media:title>
+        <media:description type="html">There is an all-permeating passion that belongs in the saved human soul, and that will not be crushed by the moral chaos of these days, or by the suffering that Christians must endure.</media:description>
+        <media:player url="http://audio.desiringgod.org/20151230-en-only-one-passion.mp3?1451491210"/>
+        <media:thumbnail url="https://image.desiringgod.org/one-passion-en/legacy_landscape/medium_one-passion.jpg?0"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>There is an all-permeating passion that belongs in the saved human soul, and that will not be crushed by the moral chaos of these days, or by the suffering that Christians must endure.</itunes:summary>
+    </item>
+    <item>
+      <title>One Gospel</title>
+      <itunes:image href="https://image.desiringgod.org/one-gospel-en/legacy_landscape/medium_one-gospel.jpg?1452019382"/>
+      <itunes:subtitle>Campus Outreach 2015 New Years Conference</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>PartThe more horrible, foreign, startling, fearful, uncertain, and stomach-turning the days become, the more relevant the gospel of Jesus Christ is.<![CDATA[<img src="http://feedpress.me/10727/2251169.gif" height="1" width="1"/>]]></description>
+      <pubDate>Mon, 28 Dec 2015 17:50:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/2251169</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/only-one-gospel</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587743/20151228-en-only-one-gospel.mp3" length="110782168" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587743/20151228-en-only-one-gospel.mp3" medium="audio" expression="full">
+        <media:title>One Gospel</media:title>
+        <media:description type="html">PartThe more horrible, foreign, startling, fearful, uncertain, and stomach-turning the days become, the more relevant the gospel of Jesus Christ is.</media:description>
+        <media:player url="http://audio.desiringgod.org/20151228-en-only-one-gospel.mp3?1451403838"/>
+        <media:thumbnail url="https://image.desiringgod.org/one-gospel-en/legacy_landscape/medium_one-gospel.jpg?1452019382"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>PartThe more horrible, foreign, startling, fearful, uncertain, and stomach-turning the days become, the more relevant the gospel of Jesus Christ is.</itunes:summary>
+    </item>
+    <item>
+      <title>The Glory of God as the Ground of the Mind’s Certainty and the Goal of the Soul’s Satisfaction</title>
+      <itunes:image href="https://image.desiringgod.org/the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction-en/legacy_landscape/medium_the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction.jpg?0"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>In the Bible, the glory of God reveals itself to be inescapably real to the mind, and incomparably rewarding to the heart. Nothing could be more true, and nothing could be more precious.<![CDATA[<img src="http://feedpress.me/10727/1860206.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/1860206</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587633/20151009-en-the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction.mp3" length="96016907" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587633/20151009-en-the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction.mp3" medium="audio" expression="full">
+        <media:title>The Glory of God as the Ground of the Mind’s Certainty and the Goal of the Soul’s Satisfaction</media:title>
+        <media:description type="html">In the Bible, the glory of God reveals itself to be inescapably real to the mind, and incomparably rewarding to the heart. Nothing could be more true, and nothing could be more precious.</media:description>
+        <media:player url="http://audio.desiringgod.org/20151009-en-the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction.mp3?1444517842"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction-en/legacy_landscape/medium_the-glory-of-god-as-the-ground-of-the-mind-s-certainty-and-the-goal-of-the-soul-s-satisfaction.jpg?0"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>In the Bible, the glory of God reveals itself to be inescapably real to the mind, and incomparably rewarding to the heart. Nothing could be more true, and nothing could be more precious.</itunes:subtitle>
+      <itunes:summary>In the Bible, the glory of God reveals itself to be inescapably real to the mind, and incomparably rewarding to the heart. Nothing could be more true, and nothing could be more precious.</itunes:summary>
+    </item>
+    <item>
+      <title>All Authority in Heaven and Earth</title>
+      <itunes:image href="https://image.desiringgod.org/all-authority-in-heaven-and-earth-en/legacy_landscape/medium_all-authority-in-heaven-and-earth.jpg?1452019757"/>
+      <itunes:subtitle>The Sovereignty of Jesus and His Unstoppable Mission</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>The audacity to make disciples for Jesus from followers of other lords and other religions is based on the rock solid foundation of the words — and the reality — “All authority in heaven and on earth has been given to me.”<![CDATA[<img src="http://feedpress.me/10727/1860173.gif" height="1" width="1"/>]]></description>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/1860173</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/all-authority-in-heaven-and-earth</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587634/20151008-en-all-authority-in-heaven-and-earth.mp3" length="47598571" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587634/20151008-en-all-authority-in-heaven-and-earth.mp3" medium="audio" expression="full">
+        <media:title>All Authority in Heaven and Earth</media:title>
+        <media:description type="html">The audacity to make disciples for Jesus from followers of other lords and other religions is based on the rock solid foundation of the words — and the reality — “All authority in heaven and on earth has been given to me.”</media:description>
+        <media:player url="http://audio.desiringgod.org/20151008-en-all-authority-in-heaven-and-earth.mp3?1444517585"/>
+        <media:thumbnail url="https://image.desiringgod.org/all-authority-in-heaven-and-earth-en/legacy_landscape/medium_all-authority-in-heaven-and-earth.jpg?1452019757"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>The audacity to make disciples for Jesus from followers of other lords and other religions is based on the rock solid foundation of the words — and the reality — “All authority in heaven and on earth has been given to me.”</itunes:summary>
+    </item>
+    <item>
+      <title>How to Know the Will of God</title>
+      <itunes:image href="https://image.desiringgod.org/how-to-know-the-will-of-god-en/legacy_landscape/medium_how-to-know-the-will-of-god.jpg?0"/>
+      <itunes:subtitle>Finding Direction with the Renewed Mind</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>God wants to make you new more than he wants to reveal his secret plans for tomorrow. That’s his good purpose for you in all things.<![CDATA[<img src="http://feedpress.me/10727/1835334.gif" height="1" width="1"/>]]></description>
+      <pubDate>Sun, 27 Sep 2015 00:00:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/1835334</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/how-to-know-the-will-of-god</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4587635/20150927-en-how-to-know-the-will-of-god.mp3" length="44800816" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4587635/20150927-en-how-to-know-the-will-of-god.mp3" medium="audio" expression="full">
+        <media:title>How to Know the Will of God</media:title>
+        <media:description type="html">God wants to make you new more than he wants to reveal his secret plans for tomorrow. That’s his good purpose for you in all things.</media:description>
+        <media:player url="http://audio.desiringgod.org/20150927-en-how-to-know-the-will-of-god.mp3?1460400362"/>
+        <media:thumbnail url="https://image.desiringgod.org/how-to-know-the-will-of-god-en/legacy_landscape/medium_how-to-know-the-will-of-god.jpg?0"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>God wants to make you new more than he wants to reveal his secret plans for tomorrow. That’s his good purpose for you in all things.</itunes:summary>
+    </item>
+  </channel>
+</rss>

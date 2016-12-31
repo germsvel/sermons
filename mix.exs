@@ -26,7 +26,7 @@ defmodule Sermons.Mixfile do
   def app_list(_), do: app_list
   def app_list do
      [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]
+                    :phoenix_ecto, :postgrex, :feeder_ex, :httpoison]
   end
 
   # Specifies which paths to compile per environment.
@@ -46,7 +46,10 @@ defmodule Sermons.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:hound, "~> 1.0", only: :test},
-     {:ex_machina, "~> 1.0", only: :test}
+     {:ex_machina, "~> 1.0", only: :test},
+     {:feeder_ex, "~> 1.0"},
+     {:httpoison, "~> 0.10.0"},
+     {:floki, "~> 0.11.0"}
    ]
   end
 

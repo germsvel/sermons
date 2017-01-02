@@ -24,6 +24,16 @@ defmodule Sermons.Sermon do
     |> validate_required([:ministry_name, :passage, :source_url, :download_url, :author, :from, :to, :book])
   end
 
+
+  defp set_passage_data(struct, params) do
+    passage = Sermons.Passage.new(struct.passage)
+
+    params
+    |> Map.put(:book, passage.book)
+    |> Map.put(:from, passage.from)
+    |> Map.put(:to, passage.to)
+  end
+
   def relevant_sermons(passage) do
     from s in __MODULE__,
       where: (^passage.from >= s.from and ^passage.from <= s.to),

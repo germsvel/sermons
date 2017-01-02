@@ -19,3 +19,6 @@ config :sermons, Sermons.Repo,
   pool: Ecto.Adapters.SQL.Sandbox
 
 config :hound, driver: "phantomjs"
+
+# configure modules to be used
+config :sermons, :http_client, Mocks.HttpMock

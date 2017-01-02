@@ -10,6 +10,6 @@ defmodule Sermons.FeedReaderTest do
     feed = FeedReader.parse(xml)
 
     assert feed.title == "John Piper Sermons"
-    assert length(feed.entries) == 36
+    assert length(feed.entries) == 2
   end
 end

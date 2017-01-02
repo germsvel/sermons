@@ -1,6 +1,9 @@
 defmodule Sermons.Fixtures do
-  def fixture(name) do
-    {:ok, pid} = File.read("#{File.cwd!}/test/support/fixtures/#{name}.xml")
-    pid
+  def fixture(name, extension \\ "xml") do
+    File.read!("#{fixtures_path}/#{name}.#{extension}")
+  end
+
+  defp fixtures_path do
+    "#{File.cwd!}/test/support/fixtures"
   end
 end

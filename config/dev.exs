@@ -41,3 +41,6 @@ config :sermons, Sermons.Repo,
   database: "sermons_dev",
   hostname: "localhost",
   pool_size: 10
+
+# configure modules to be used
+config :sermons, :http_client, Sermons.Http

@@ -27,4 +27,8 @@ defmodule Sermons.Factory do
   def to_verse(sermon, to) do
     %{sermon | to: to}
   end
+
+  def with_passage(sermon, passage) do
+    %{sermon | passage: passage}
+  end
 end

@@ -8,13 +8,18 @@ defmodule Sermons.DesiringGod do
   def parse_sermon_page(html) do
     page = Floki.parse(html)
 
-    %Sermons.Sermon{
+    sermon = %{
       ministry_name: "Desiring God",
       author: find_author(page),
       title: find_title(page),
       passage: find_passage(page),
       download_url: find_download_url(page)
     }
+
+    case valid?(sermon) do
+      true -> {:ok, sermon}
+      false -> {:error, "Error parsing sermon"}
+    end
   end
 
   defp find_title(page) do
@@ -33,6 +38,10 @@ defmodule Sermons.DesiringGod do
     |> Enum.at(0)
     |> Floki.text
     |> String.replace("–", "-")
+  end
+
+  defp valid?(sermon) do
+    String.contains?(sermon.passage, ":")
   end
 
   defp find_author(page) do

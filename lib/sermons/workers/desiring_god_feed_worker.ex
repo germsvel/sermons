@@ -9,21 +9,35 @@ defmodule Sermons.Workers.DesiringGodFeedWorker do
 
     feed.entries
     |> Enum.map(&parse_entry/1)
+    |> Enum.reject(fn sermon -> sermon == nil end)
+    |> Enum.map(&set_passage/1)
     |> Enum.map(&store_sermon/1)
   end
 
   defp parse_entry(entry) do
-    DesiringGod.get_sermon(entry.id)
-    |> DesiringGod.parse_sermon_page
-    |> add_source_url(entry.id)
+    page = DesiringGod.get_sermon(entry.id)
+
+    case DesiringGod.parse_sermon_page(page) do
+      {:ok, sermon} -> add_source_url(sermon, entry.id)
+      {:error, _} -> nil
+    end
   end
 
-  defp add_source_url(sermon, url) do
-   %{sermon | source_url: url}
+  defp add_source_url(params, url) do
+    params |> Map.put(:source_url, url)
   end
 
-  defp store_sermon(sermon) do
-    changeset = Sermon.changeset(sermon)
+  defp store_sermon(params) do
+    changeset = Sermon.changeset(%Sermon{}, params)
     Repo.insert! changeset
+  end
+
+  defp set_passage(params) do
+    passage = Sermons.Passage.new(params.passage)
+
+    params
+    |> Map.put(:book, passage.book)
+    |> Map.put(:from, passage.from)
+    |> Map.put(:to, passage.to)
   end
 end

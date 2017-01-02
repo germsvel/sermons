@@ -9,6 +9,6 @@ defmodule Sermons.Workers.DesiringGodFeedWorkerTest do
     Worker.store_entries(xml)
 
     sermons = Sermons.Repo.all Sermons.Sermon
-    assert length(sermons) == 2
+    assert length(sermons) == 1
   end
 end

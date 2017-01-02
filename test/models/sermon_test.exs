@@ -15,25 +15,6 @@ defmodule Sermons.SermonTest do
     refute changeset.valid?
   end
 
-  test "passage_changeset sets from, to, and book" do
-    sermon = %Sermon{passage: "Galatians 3:23-24"}
-    attrs = %{
-      ministry_name: "Desiring God",
-      passage: "Romans 3:21-26",
-      source_url: "http://www.desiringgod.org/messages/god-vindicated-his-righteousness-in-the-death-of-christ",
-      download_url: "https://cdn.desiringgod.org/audio/1992/19920315.mp3?1319695290",
-      author: "John Piper",
-      title: "God Vindicated His Righteousness in the Death of Christ",
-    }
-    changeset = Sermon.changeset(sermon, attrs)
-
-    changes = changeset.changes
-
-    assert changes.from == 3023
-    assert changes.to == 3024
-    assert changes.book == "Galatians"
-  end
-
   #####################
   # .relevant_sermons #
   #####################

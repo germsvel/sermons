@@ -25,8 +25,8 @@ defmodule Sermons.Sermon do
   end
 
 
-  defp set_passage_data(struct, params) do
-    passage = Sermons.Passage.new(struct.passage)
+  defp set_passage_data(params) do
+    passage = Sermons.Passage.new(params.passage)
 
     params
     |> Map.put(:book, passage.book)

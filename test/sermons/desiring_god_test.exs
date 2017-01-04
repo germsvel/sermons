@@ -3,7 +3,8 @@ defmodule Sermons.DesiringGodTest do
   alias Sermons.DesiringGod, as: DG
 
   test "parses a sermon page html" do
-    {:ok, sermon} = DG.get_sermon("the-true-grace-of-christian-camaraderie")
+    url = "http://www.desiringgod.org/messages/the-true-grace-of-christian-camaraderie"
+    {:ok, sermon} = DG.get_sermon(url)
                   |> DG.parse_sermon_page
 
     assert sermon.ministry_name == "Desiring God"

@@ -4,6 +4,13 @@ defmodule Sermons.Workers.DesiringGodFeedWorker do
   alias Sermons.Sermon
   alias Sermons.DesiringGod
 
+  @http_client Application.get_env(:sermons, :http_client)
+  @feed_url "http://feed.desiringgod.org/messages.rss"
+
+  def get_feed do
+    @http_client.get(@feed_url)
+  end
+
   def store_entries(xml) do
     feed = FeedReader.parse(xml)
 

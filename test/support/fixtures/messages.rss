@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~files/feed-premium.xsl"?>
+
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedpress="https://feed.press/xmlns" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0">
+  <channel>
+    <feedpress:locale>en</feedpress:locale>
+    <atom:link rel="hub" href="http://feedpress.superfeedr.com/"/>
+    <image>
+      <link>http://www.desiringgod.org/messages</link>
+      <title><![CDATA[John Piper Sermons]]></title>
+      <url>http://static.feedpress.it/logo/messages.png</url>
+    </image>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Religion &amp; Spirituality/Christianity</media:category>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain"/>
+    <media:credit role="author"/>
+    <media:keywords>sermons, messages, preaching, John Piper, Desiring God</media:keywords>
+    <itunes:new-feed-url>http://feed.desiringgod.org/messages.rss</itunes:new-feed-url>
+    <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+    <googleplay:email>mail@desiringgod.org</googleplay:email>
+    <googleplay:description>John Piper is founder and teacher of desiringGod.org; he is author of more than 50 books and travels regularly to preach and teach. New messages are posted to this podcast as they become available. Piper’s sermons, books, articles, and more are available free of charge at desiringGod.org. We want people everywhere to understand and embrace the truth that God is most glorified in us, when we are most satisfied in him.</googleplay:description>
+    <googleplay:explicit>no</googleplay:explicit>
+    <feedpress:podcastId>196050704</feedpress:podcastId>
+    <copyright>© 2016 Desiring God</copyright>
+    <atom:link href="http://feed.desiringgod.org/messages.rss" rel="self" type="application/rss+xml"/>
+    <itunes:author>Desiring God</itunes:author>
+    <itunes:owner>
+      <itunes:email>mail@desiringgod.org</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <language>en</language>
+    <title>John Piper Sermons</title>
+    <link>http://www.desiringgod.org/messages</link>
+    <description>John Piper is founder and teacher of desiringGod.org; he is author of more than 50 books and travels regularly to preach and teach. New messages are posted to this podcast as they become available. Piper’s sermons, books, articles, and more are available free of charge at desiringGod.org. We want people everywhere to understand and embrace the truth that God is most glorified in us, when we are most satisfied in him.</description>
+    <itunes:summary>John Piper is founder and teacher of desiringGod.org; he is author of more than 50 books and travels regularly to preach and teach. New messages are posted to this podcast as they become available. Piper’s sermons, books, articles, and more are available free of charge at desiringGod.org. We want people everywhere to understand and embrace the truth that God is most glorified in us, when we are most satisfied in him.</itunes:summary>
+    <item>
+      <title>The True Grace of Christian Camaraderie</title>
+      <itunes:image href="http://static.feedpress.it/logo/messages.png"/>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.<![CDATA[<img src="http://feedpress.me/10727/4985270.gif" height="1" width="1"/>]]></description>
+      <pubDate>Fri, 16 Dec 2016 15:37:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4985270</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/the-true-grace-of-christian-camaraderie</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4985271/20161222-en-the-true-grace-of-christian-camaraderie.mp3" length="29092140" type="audio/mpeg"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4985271/20161222-en-the-true-grace-of-christian-camaraderie.mp3" medium="audio" expression="full">
+        <media:title>The True Grace of Christian Camaraderie</media:title>
+        <media:description type="html">Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161222-en-the-true-grace-of-christian-camaraderie.mp3?1481924333"/>
+        <media:thumbnail url="https://image.desiringgod.org/the-true-grace-of-christian-camaraderie-i8gowa5g-en/landscape/medium_the-true-grace-of-christian-camaraderie-i8gowa5g.jpg?1481891838"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.</itunes:subtitle>
+      <itunes:summary>Grace is always personal. God mediates his grace to undeserving sinners through the warm affections of his divine family, the church.</itunes:summary>
+    </item>
+    <item>
+      <title>Sons of Liberty and Joy: How a Christian Relates to the State</title>
+      <itunes:image href="https://image.desiringgod.org/sons-of-freedom-and-joy-yuzuq6i2-en/landscape/medium_sons-of-freedom-and-joy-yuzuq6i2.jpg?1478183676"/>
+      <itunes:subtitle>How a Christian Relates to the State</itunes:subtitle>
+      <itunes:author>John Piper</itunes:author>
+      <dc:creator>John Piper</dc:creator>
+      <description>Christians claim their true citizenship in heaven. When we submit to earthly governments, we do so out of allegiance to Christ's eternal kingdom.<![CDATA[<img src="http://feedpress.me/10727/4734853.gif" height="1" width="1"/>]]></description>
+      <pubDate>Wed, 02 Nov 2016 09:04:00 +0000</pubDate>
+      <link>http://tracking.feedpress.it/link/10727/4734853</link>
+      <itunes:keywords>sermons, messages, preaching, John Piper, Desiring God</itunes:keywords>
+      <guid isPermaLink="false">http://www.desiringgod.org/messages/sons-of-liberty-and-joy</guid>
+      <enclosure url="http://tracking.feedpress.it/link/10727/4734854/20161102-en-sons-of-freedom-and-joy.mp3" length="35208591" type="audio/mp3"/>
+      <media:content url="http://tracking.feedpress.it/link/10727/4734854/20161102-en-sons-of-freedom-and-joy.mp3" medium="audio" expression="full">
+        <media:title>Sons of Liberty and Joy: How a Christian Relates to the State</media:title>
+        <media:description type="html">Christians claim their true citizenship in heaven. When we submit to earthly governments, we do so out of allegiance to Christ's eternal kingdom.</media:description>
+        <media:player url="http://audio.desiringgod.org/20161102-en-sons-of-freedom-and-joy.mp3?1478184821"/>
+        <media:thumbnail url="https://image.desiringgod.org/sons-of-freedom-and-joy-yuzuq6i2-en/landscape/medium_sons-of-freedom-and-joy-yuzuq6i2.jpg?1478183676"/>
+      </media:content>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Christians claim their true citizenship in heaven. When we submit to earthly governments, we do so out of allegiance to Christ's eternal kingdom.</itunes:summary>
+    </item>
+  </channel>
+</rss>

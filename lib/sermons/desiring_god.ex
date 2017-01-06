@@ -18,7 +18,7 @@ defmodule Sermons.DesiringGod do
 
     case valid?(sermon) do
       true -> {:ok, sermon}
-      false -> {:error, "Error parsing sermon"}
+      false -> {:error, "Error parsing page"}
     end
   end
 
@@ -29,19 +29,27 @@ defmodule Sermons.DesiringGod do
   end
 
   defp find_download_url(page) do
-    Floki.attribute(page, "a.media-menu__link", "href") |> Enum.at(1)
+    Floki.attribute(page, "a.media-menu__link", "href")
+    |> Enum.find(&audio_url?(&1))
+  end
+  defp audio_url?(url) do
+    String.contains?(url, "audio.desiringgod")
   end
 
   defp find_passage(page) do
+    case find_resources(page) do
+      [sermon, _topics | _] -> extract_sermon_text(sermon)
+      _ -> ""
+    end
+  end
+  defp find_resources(page) do
     Floki.find(page, ".resource__meta")
     |> Floki.find("li > a")
-    |> Enum.at(0)
+  end
+  defp extract_sermon_text(element) do
+    element
     |> Floki.text
     |> String.replace("–", "-")
-  end
-
-  defp valid?(sermon) do
-    String.contains?(sermon.passage, ":")
   end
 
   defp find_author(page) do
@@ -49,5 +57,9 @@ defmodule Sermons.DesiringGod do
     |> Floki.find("span")
     |> Enum.at(0)
     |> Floki.text
+  end
+
+  defp valid?(sermon) do
+    String.contains?(sermon.passage, ":")
   end
 end

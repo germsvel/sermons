@@ -35,8 +35,8 @@ defmodule Sermons.Workers.DesiringGodFeedWorker do
   end
 
   defp store_sermon(params) do
-    changeset = Sermon.changeset(%Sermon{}, params)
-    Repo.insert! changeset
+    Sermon.changeset(%Sermon{}, params)
+    |> Repo.insert!
   end
 
   defp set_passage(params) do

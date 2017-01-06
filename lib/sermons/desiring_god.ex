@@ -29,17 +29,21 @@ defmodule Sermons.DesiringGod do
   end
 
   defp find_download_url(page) do
-    Floki.attribute(page, "a.media-menu__link", "href")
-    |> Enum.find(&audio_url?(&1))
+    Floki.find(page, "a.media-menu__link")
+    |> Enum.find(&audio_link?(&1))
+    |> Floki.attribute("href")
+    |> Enum.at(0)
   end
-  defp audio_url?(url) do
-    String.contains?(url, "audio.desiringgod")
+  defp audio_link?(element) do
+    element
+    |> Floki.text
+    |> String.contains?("Audio (MP3)")
   end
 
   defp find_passage(page) do
     case find_resources(page) do
       [sermon, _topics | _] -> extract_sermon_text(sermon)
-      _ -> ""
+      _ -> nil
     end
   end
   defp find_resources(page) do
@@ -60,6 +64,9 @@ defmodule Sermons.DesiringGod do
   end
 
   defp valid?(sermon) do
-    String.contains?(sermon.passage, ":")
+    passage_valid?(sermon.passage)
   end
+
+  defp passage_valid?(nil), do: false
+  defp passage_valid?(passage), do: String.contains?(passage, ":")
 end

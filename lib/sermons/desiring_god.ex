@@ -8,7 +8,7 @@ defmodule Sermons.DesiringGod do
   def parse_sermon_page(html) do
     page = Floki.parse(html)
 
-    sermon = %{
+    response = %{
       ministry_name: "Desiring God",
       author: find_author(page),
       title: find_title(page),
@@ -16,8 +16,8 @@ defmodule Sermons.DesiringGod do
       download_url: find_download_url(page)
     }
 
-    case valid?(sermon) do
-      true -> {:ok, sermon}
+    case valid?(response) do
+      true -> {:ok, response}
       false -> {:error, "Error parsing page"}
     end
   end
@@ -63,8 +63,8 @@ defmodule Sermons.DesiringGod do
     |> Floki.text
   end
 
-  defp valid?(sermon) do
-    passage_valid?(sermon.passage)
+  defp valid?(response) do
+    passage_valid?(response.passage)
   end
 
   defp passage_valid?(nil), do: false

@@ -4,7 +4,8 @@ defmodule Sermons.UserSearchesSermonsTest do
 
   @tag :feature
   test "user sees a list of sermons as a result of search" do
-    insert_list(2, :sermon)
+    build(:sermon) |> with_passage("Romans 3:23-24") |> insert
+    build(:sermon) |> with_passage("Romans 3:23") |> insert
     navigate_to "/"
 
     search_bar

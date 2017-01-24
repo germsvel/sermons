@@ -11,6 +11,7 @@ defmodule Sermons.Sermon do
     field :from, :integer
     field :to, :integer
     field :book, :string
+    field :slug, :string
 
     timestamps()
   end
@@ -22,8 +23,19 @@ defmodule Sermons.Sermon do
     struct
     |> cast(params, [:ministry_name, :passage, :source_url, :download_url, :author, :title, :from, :to, :book])
     |> validate_required([:ministry_name, :passage, :source_url, :download_url, :author, :from, :to, :book])
+    |> add_slug
+    |> validate_required([:slug])
+    |> unique_constraint(:slug, name: :sermons_slug_passage_index)
   end
 
+  defp add_slug(changeset) do
+    slug = changeset
+         |> get_field(:title)
+         |> Sermons.Slug.generate
+
+    changeset
+    |> cast(%{slug: slug}, [:slug])
+  end
 
   defp set_passage_data(params) do
     passage = Sermons.Passage.new(params.passage)

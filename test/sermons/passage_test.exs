@@ -3,51 +3,62 @@ defmodule Sermons.PassageTest do
 
   alias Sermons.Passage
 
-  # ===
-  # .new
-  # ===
-  test ".new creates a passage struct from the query" do
-    query = Passage.new("Romans 3:23-25")
+  describe "new/1" do
+    test "returns an empty struct if no passage is provided" do
+      passage = Passage.new(nil)
 
-    assert query.original == "Romans 3:23-25"
-    assert query.book == "Romans"
-    assert query.from == 3_023
-    assert query.to == 3_025
-  end
+      assert passage == %Passage{}
+    end
 
-  test ".new creates a passage for single verse queries (e.g. Rom 3:23)" do
-    query = Passage.new("Romans 3:23")
+    test "returns an empty struct if an empty string is provided" do
+      passage = Passage.new("")
 
-    assert query.original == "Romans 3:23"
-    assert query.book == "Romans"
-    assert query.from == 3_023
-    assert query.to == 3_023
-  end
+      assert passage == %Passage{}
+    end
 
-  test ".new creates a new passage for books with numbers (e.g. 1 Cor 1:13)" do
-    query = Passage.new("1 Corinthians 1:13")
+    test "creates a passage struct from the query" do
+      passage = Passage.new("Romans 3:23-25")
 
-    assert query.original == "1 Corinthians 1:13"
-    assert query.book == "1 Corinthians"
-    assert query.from == 1_013
-    assert query.to == 1_013
-  end
+      assert passage.original == "Romans 3:23-25"
+      assert passage.book == "Romans"
+      assert passage.from == 3_023
+      assert passage.to == 3_025
+    end
 
-  test ".new creates a new passage for queries that includes future chapters" do
-    query = Passage.new("Romans 3:23-4:2")
+    test "creates a passage for single verse queries (e.g. Rom 3:23)" do
+      passage = Passage.new("Romans 3:23")
 
-    assert query.original == "Romans 3:23-4:2"
-    assert query.book == "Romans"
-    assert query.from == 3_023
-    assert query.to == 4_002
-  end
+      assert passage.original == "Romans 3:23"
+      assert passage.book == "Romans"
+      assert passage.from == 3_023
+      assert passage.to == 3_023
+    end
 
-  test ".new creates a new passage for queries whole book searches (e.g. Romans 3)" do
-    query = Passage.new("Romans 3")
+    test "creates a new passage for books with numbers (e.g. 1 Cor 1:13)" do
+      passage = Passage.new("1 Corinthians 1:13")
 
-    assert query.original == "Romans 3"
-    assert query.book == "Romans"
-    assert query.from == 3_000
-    assert query.to == 3_500
+      assert passage.original == "1 Corinthians 1:13"
+      assert passage.book == "1 Corinthians"
+      assert passage.from == 1_013
+      assert passage.to == 1_013
+    end
+
+    test "creates a new passage for queries that includes future chapters" do
+      passage = Passage.new("Romans 3:23-4:2")
+
+      assert passage.original == "Romans 3:23-4:2"
+      assert passage.book == "Romans"
+      assert passage.from == 3_023
+      assert passage.to == 4_002
+    end
+
+    test "creates a new passage for queries whole book searches (e.g. Romans 3)" do
+      passage = Passage.new("Romans 3")
+
+      assert passage.original == "Romans 3"
+      assert passage.book == "Romans"
+      assert passage.from == 3_000
+      assert passage.to == 3_500
+    end
   end
 end

@@ -4,7 +4,7 @@ defmodule Sermons.SermonTest do
 
   alias Sermons.Sermon
 
-  describe ".changeset/2" do
+  describe "changeset/2" do
     test "changeset with valid attributes" do
       valid_attrs = params_for(:sermon)
       changeset = Sermon.changeset(%Sermon{}, valid_attrs)
@@ -36,9 +36,21 @@ defmodule Sermons.SermonTest do
 
       assert sermon.slug == "christ-the-king"
     end
+
+    test "changeset sets book, from and to based on the passage" do
+      attrs = %{passage: "Romans 3:23-25"}
+      params = params_for(:sermon, attrs)
+
+      sermon = Sermon.changeset(%Sermon{}, params)
+             |> Repo.insert!
+
+      assert sermon.book == "Romans"
+      assert sermon.to == 3025
+      assert sermon.from == 3023
+    end
   end
 
-  describe ".relevant_sermons/1" do
+  describe "relevant_sermons/1" do
     test "returns an exact match" do
       sermon = build(:sermon) |> with_verses(3021, 3026) |> insert
       passage = Sermons.Passage.new("Romans 3:21-26")

@@ -6,6 +6,8 @@ defmodule Sermons.Passage do
 
   @verses_for_entire_chapter "0-500"
 
+  def new(nil), do: %Passage{}
+  def new(""), do: %Passage{}
   def new(original) do
     {book, from, to} = parse_original(original)
     %Passage{ original: original,

@@ -21,29 +21,31 @@ defmodule Sermons.Sermon do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:ministry_name, :passage, :source_url, :download_url, :author, :title, :from, :to, :book])
-    |> validate_required([:ministry_name, :passage, :source_url, :download_url, :author, :from, :to, :book])
-    |> add_slug
-    |> validate_required([:slug])
+    |> cast(params, [:ministry_name, :passage, :source_url, :download_url, :author, :title])
+    |> generate_book_fields
+    |> generate_slug
+    |> validate_required([:ministry_name, :passage, :source_url, :download_url, :author, :title, :from, :to, :book, :slug])
     |> unique_constraint(:slug, name: :sermons_slug_passage_index)
   end
 
-  defp add_slug(changeset) do
+  defp generate_book_fields(changeset) do
+    passage = changeset
+            |> get_field(:passage)
+            |> Sermons.Passage.new
+
+    attrs = %{book: passage.book, from: passage.from, to: passage.to}
+
+    changeset
+    |> cast(attrs, [:book, :from, :to])
+  end
+
+  defp generate_slug(changeset) do
     slug = changeset
          |> get_field(:title)
          |> Sermons.Slug.generate
 
     changeset
     |> cast(%{slug: slug}, [:slug])
-  end
-
-  defp set_passage_data(params) do
-    passage = Sermons.Passage.new(params.passage)
-
-    params
-    |> Map.put(:book, passage.book)
-    |> Map.put(:from, passage.from)
-    |> Map.put(:to, passage.to)
   end
 
   def relevant_sermons(passage) do

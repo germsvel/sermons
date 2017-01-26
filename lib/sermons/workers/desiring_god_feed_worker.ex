@@ -17,7 +17,6 @@ defmodule Sermons.Workers.DesiringGodFeedWorker do
     feed.entries
     |> Enum.map(&parse_entry/1)
     |> Enum.reject(fn sermon -> sermon == nil end)
-    |> Enum.map(&set_passage/1)
     |> Enum.map(&store_sermon/1)
   end
 
@@ -37,14 +36,5 @@ defmodule Sermons.Workers.DesiringGodFeedWorker do
   defp store_sermon(params) do
     Sermon.changeset(%Sermon{}, params)
     |> Repo.insert!
-  end
-
-  defp set_passage(params) do
-    passage = Sermons.Passage.new(params.passage)
-
-    params
-    |> Map.put(:book, passage.book)
-    |> Map.put(:from, passage.from)
-    |> Map.put(:to, passage.to)
   end
 end

@@ -1,4 +1,4 @@
-defmodule Sermons.Workers.DesiringGodFeedWorker do
+defmodule Sermons.Retrievers.DesiringGodFeed do
   alias Sermons.FeedReader
   alias Sermons.Repo
   alias Sermons.Sermon
@@ -6,6 +6,10 @@ defmodule Sermons.Workers.DesiringGodFeedWorker do
 
   @http_client Application.get_env(:sermons, :http_client)
   @feed_url "http://feed.desiringgod.org/messages.rss"
+
+  def perform do
+    get_feed |> store_entries
+  end
 
   def get_feed do
     @http_client.get(@feed_url)
@@ -35,6 +39,6 @@ defmodule Sermons.Workers.DesiringGodFeedWorker do
 
   defp store_sermon(params) do
     Sermon.changeset(%Sermon{}, params)
-    |> Repo.insert!
+    |> Repo.insert
   end
 end

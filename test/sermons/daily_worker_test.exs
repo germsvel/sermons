@@ -1,16 +1,29 @@
+require IEx
+
 defmodule Sermons.DailyWorkerTest do
   use ExUnit.Case, async: true
 
   alias Sermons.DailyWorker
   alias Mocks.WorkerMock
 
-  test "schedules work to be performed 24 hours after" do
-    {:ok, worker} = DailyWorker.start_link(WorkerMock)
+  describe "start_link/1" do
+    test "starts a named worker to perform work" do
+      {:ok, worker} = DailyWorker.start_link(WorkerMock)
 
-    Process.monitor(worker)
+      pid = Process.whereis(WorkerMock)
+
+      assert Process.alive?(worker)
+      assert pid == worker
+    end
   end
 
-  test "reschedules work after finishing work" do
+  describe "handle_info/3" do
+    test "reschedules work after finishing work" do
+      {:ok, worker} = DailyWorker.start_link(WorkerMock)
 
+      send(worker, :work)
+      |> IO.inspect
+
+    end
   end
 end

@@ -2,26 +2,28 @@ defmodule Mocks.HttpMock do
   import Sermons.Fixtures
 
   def get(url) do
-    {path, extension} = parse_path(url)
+    {host, path, extension} = parse_url(url)
 
-    path
-    |> parse_file_name
+    create_file_name(host, path)
     |> fixture(extension)
   end
 
-  defp parse_path(url) do
+  defp parse_url(url) do
     uri = URI.parse(url)
 
-    case String.split(uri.path, ".") do
+    {path, extension} = parse_path(uri.path)
+
+    {uri.host, path, extension}
+  end
+
+  defp parse_path(path) do
+    case String.split(path, ".") do
       [path, extension] -> {path, extension}
       [path] -> {path, "html"}
     end
   end
 
-  defp parse_file_name(path) do
-    path
-    |> String.split("/")
-    |> Enum.reverse
-    |> Enum.at(0)
+  defp create_file_name(host, path) do
+    "#{host}#{path}"
   end
 end

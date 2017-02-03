@@ -43,4 +43,4 @@ config :sermons, Sermons.Repo,
   pool_size: 10
 
 # configure modules to be used
-config :sermons, :http_client, Sermons.Http
+config :sermons, :http_client, Sermons.HttpClient

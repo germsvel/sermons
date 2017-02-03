@@ -22,8 +22,8 @@ defmodule Sermons.Mixfile do
     ]
   end
 
-  def app_list(:test), do: [:hound, :ex_machina | app_list]
-  def app_list(_), do: app_list
+  def app_list(:test), do: [:hound, :ex_machina | app_list()]
+  def app_list(_), do: app_list()
   def app_list do
      [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
                     :phoenix_ecto, :postgrex, :feeder_ex, :httpoison]

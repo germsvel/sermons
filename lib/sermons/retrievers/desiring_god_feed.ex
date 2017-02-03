@@ -1,31 +1,29 @@
 defmodule Sermons.Retrievers.DesiringGodFeed do
-  alias Sermons.FeedReader
   alias Sermons.Repo
   alias Sermons.Sermon
   alias Sermons.DesiringGod
+  alias Sermons.Http
 
-  @http_client Application.get_env(:sermons, :http_client)
   @feed_url "http://feed.desiringgod.org/messages.rss"
 
   def perform do
-    get_feed |> store_entries
+    get_feed() |> store_entries()
   end
 
   def get_feed do
-    @http_client.get(@feed_url)
+    Http.get(@feed_url)
   end
 
   def store_entries(xml) do
-    feed = FeedReader.parse(xml)
+    feed = DesiringGod.parse_sermons_feed(xml)
 
     feed.entries
-    |> Enum.map(&parse_entry/1)
-    |> Enum.reject(fn sermon -> sermon == nil end)
+    |> Stream.map(&parse_entry/1)
     |> Enum.map(&store_sermon/1)
   end
 
   defp parse_entry(entry) do
-    page = DesiringGod.get_sermon(entry.id)
+    page = Http.get(entry.id)
 
     case DesiringGod.parse_sermon_page(page) do
       {:ok, sermon} -> add_source_url(sermon, entry.id)
@@ -37,6 +35,7 @@ defmodule Sermons.Retrievers.DesiringGodFeed do
     params |> Map.put(:source_url, url)
   end
 
+  defp store_sermon(nil), do: nil
   defp store_sermon(params) do
     Sermon.changeset(%Sermon{}, params)
     |> Repo.insert

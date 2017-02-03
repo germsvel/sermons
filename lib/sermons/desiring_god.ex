@@ -1,8 +1,8 @@
 defmodule Sermons.DesiringGod do
-  @http_client Application.get_env(:sermons, :http_client)
+  alias Sermons.FeedReader
 
-  def get_sermon(url) do
-    @http_client.get(url)
+  def parse_sermons_feed(xml) do
+    FeedReader.parse(xml)
   end
 
   def parse_sermon_page(html) do

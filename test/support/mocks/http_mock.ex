@@ -1,4 +1,4 @@
-defmodule Mocks.HttpMock do
+defmodule Mocks.HttpClientMock do
   import Sermons.Fixtures
 
   def get(url) do

@@ -21,4 +21,4 @@ config :sermons, Sermons.Repo,
 config :hound, driver: "phantomjs"
 
 # configure modules to be used
-config :sermons, :http_client, Mocks.HttpMock
+config :sermons, :http_client, Mocks.HttpClientMock

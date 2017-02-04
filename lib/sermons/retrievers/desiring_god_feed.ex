@@ -4,7 +4,7 @@ defmodule Sermons.Retrievers.DesiringGodFeed do
   alias Sermons.DesiringGod, as: DG
 
   def perform do
-    DG.get_feed_urls()
+    DG.get_sermon_urls_from_feed()
     |> Enum.map(&DG.get_sermon/1)
     |> Enum.map(&store_sermon/1)
   end

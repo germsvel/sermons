@@ -21,15 +21,15 @@ defmodule Sermons.DesiringGod do
     |> Floki.attribute("data-link")
   end
 
-  def get_sermon(url) do
-    Http.get(url) |> parse_sermon_page(url: url)
-  end
-
-  def get_feed_urls do
+  def get_sermon_urls_from_feed do
     feed = Http.get(@feed_url) |> FeedReader.parse()
 
     feed.entries
     |> Enum.map(fn entry -> entry.id end)
+  end
+
+  def get_sermon(url) do
+    Http.get(url) |> parse_sermon_page(url: url)
   end
 
   def parse_sermon_page(html, url: url) do
@@ -44,9 +44,14 @@ defmodule Sermons.DesiringGod do
       source_url: url
     }
 
-    case valid?(response) do
-      true -> {:ok, response}
-      false -> {:error, "Error parsing page"}
+    validate(response)
+  end
+
+  defp validate(response) do
+    if valid?(response) do
+      {:ok, response}
+    else
+      {:error, "Error parsing page"}
     end
   end
 

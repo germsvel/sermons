@@ -22,9 +22,9 @@ defmodule Sermons.DesiringGodTest do
     end
   end
 
-  describe "get_feed_urls/0" do
+  describe "get_sermon_urls_from_feed/0" do
     test "returns a list of sermon urls from an rss feed" do
-      urls = [h|_t] = DG.get_feed_urls
+      urls = [h|_t] = DG.get_sermon_urls_from_feed
 
       assert length(urls) == 2
       assert h == "http://www.desiringgod.org/messages/the-true-grace-of-christian-camaraderie"

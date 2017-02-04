@@ -1,11 +1,38 @@
 defmodule Sermons.DesiringGod do
   alias Sermons.FeedReader
+  alias Sermons.Http
 
-  def parse_sermons_feed(xml) do
-    FeedReader.parse(xml)
+  @root_url "http://www.desiringgod.org"
+  @chapters_url "#{@root_url}/scripture/with-messages"
+  @feed_url "http://feed.desiringgod.org/messages.rss"
+
+  def get_chapter_urls do
+    Http.get(@chapters_url)
+    |> Floki.find(".chapters")
+    |> Floki.find("a")
+    |> Floki.attribute("href")
+    |> Enum.map(&prepend_root_url/1)
+  end
+  defp prepend_root_url(url), do: @root_url <> url
+
+  def get_sermon_urls(chapter_url) do
+    Http.get(chapter_url)
+    |> Floki.find(".share")
+    |> Floki.attribute("data-link")
   end
 
-  def parse_sermon_page(html) do
+  def get_sermon(url) do
+    Http.get(url) |> parse_sermon_page(url: url)
+  end
+
+  def get_feed_urls do
+    feed = Http.get(@feed_url) |> FeedReader.parse()
+
+    feed.entries
+    |> Enum.map(fn entry -> entry.id end)
+  end
+
+  def parse_sermon_page(html, url: url) do
     page = Floki.parse(html)
 
     response = %{
@@ -13,7 +40,8 @@ defmodule Sermons.DesiringGod do
       author: find_author(page),
       title: find_title(page),
       passage: find_passage(page),
-      download_url: find_download_url(page)
+      download_url: find_download_url(page),
+      source_url: url
     }
 
     case valid?(response) do

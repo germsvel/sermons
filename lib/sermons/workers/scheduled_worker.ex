@@ -40,7 +40,7 @@ defmodule Sermons.Workers.ScheduledWorker do
       end
 
       defp schedule do
-       raise "attempted to schedule ScheduledWorker but no schedule/0 clause was provided"
+        raise "attempted to schedule ScheduledWorker but no schedule/0 clause was provided"
       end
 
       defoverridable [schedule: 0]

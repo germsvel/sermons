@@ -7,7 +7,8 @@ defmodule Sermons.RetrievalSupervisor do
 
   def init(:ok) do
     children = [
-      worker(Sermons.DailyWorker, [Sermons.Retrievers.DesiringGodFeed])
+      worker(Sermons.Workers.DailyWorker, [Sermons.Retrievers.DesiringGodFeed]),
+      worker(Sermons.Workers.MonthlyWorker, [Sermons.Retrievers.DesiringGodWebsite])
     ]
 
     supervise(children, strategy: :one_for_one)

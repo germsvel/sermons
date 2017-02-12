@@ -24,5 +24,13 @@ defmodule Sermons.RfcTest do
       assert sermon.passage == "Matthew 12:1-12:14"
       assert sermon.source_url == url
     end
+
+    test "returns {:error, _} when parsing fails" do
+      url = "http://www.redeemerfellowshipchurch.org/sermons/sermon/2016-12-25/jesus-was-born-to-make-all-things-new"
+
+      response = Rfc.get_sermon(url)
+
+      assert response == {:error, "Error parsing page"}
+    end
   end
 end

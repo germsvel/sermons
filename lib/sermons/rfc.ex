@@ -38,18 +38,35 @@ defmodule Sermons.Rfc do
   end
 
   defp find_author(page) do
-    [_date, speaker, _series, _category, _scripture | _]  = content_elements(page)
+    {speaker, _scripture} = sermon_content_elements(page)
 
-    Floki.text(speaker)
-    |> String.split(":")
+    speaker
+    |> String.split("Speaker:")
     |> Enum.at(1)
     |> String.strip()
   end
 
-  defp content_elements(page) do
+  defp find_passage(page) do
+    {_speaker, scripture}  = sermon_content_elements(page)
+
+    scripture
+    |> String.split("Scripture:")
+    |> Enum.at(1)
+    |> String.replace("–", "-")
+    |> String.strip()
+  end
+
+  defp sermon_content_elements(page) do
+    case parse_sermon_content_elements(page) do
+      [_date, speaker, _series, _category, scripture] -> {speaker, scripture}
+      [_date, speaker, _series, _category] -> {speaker, "Scripture:"}
+    end
+  end
+  defp parse_sermon_content_elements(page) do
     page
     |> Floki.find(".content_area")
     |> Floki.find("p")
+    |> Enum.map(&Floki.text/1)
   end
 
   defp find_title(page) do
@@ -58,18 +75,8 @@ defmodule Sermons.Rfc do
     |> Floki.text
   end
 
-  defp find_passage(page) do
-    [_date, _speaker, _series, _category, scripture | _]  = content_elements(page)
-
-    Floki.text(scripture)
-    |> String.split("Scripture:")
-    |> Enum.at(1)
-    |> String.replace("–", "-")
-    |> String.strip()
-  end
-
   defp find_download_url(page) do
-    [_play, download, _notes | _] = media_detail_elements(page)
+    [_play, download, _notes] = media_detail_elements(page)
 
     Floki.attribute(download, "href")
     |> Enum.at(0)

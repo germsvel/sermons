@@ -1,10 +1,9 @@
-defmodule Sermons.Retrievers.DesiringGodFeed do
-  alias Sermons.{Repo, Sermon}
-  alias Sermons.DesiringGod, as: DG
+defmodule Sermons.Retrievers.RfcFeed do
+  alias Sermons.{Repo, Sermon, Rfc}
 
   def perform do
-    DG.get_sermon_urls_from_feed()
-    |> Enum.map(&DG.get_sermon/1)
+    Rfc.get_sermon_urls_from_feed()
+    |> Enum.map(&Rfc.get_sermon/1)
     |> Enum.map(&store_sermon/1)
   end
 

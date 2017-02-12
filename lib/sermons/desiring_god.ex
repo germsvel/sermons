@@ -1,6 +1,5 @@
 defmodule Sermons.DesiringGod do
-  alias Sermons.FeedReader
-  alias Sermons.Http
+  alias Sermons.{Http, FeedReader}
 
   @root_url "http://www.desiringgod.org"
   @chapters_url "#{@root_url}/scripture/with-messages"

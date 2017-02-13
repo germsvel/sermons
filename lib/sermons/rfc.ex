@@ -50,9 +50,9 @@ defmodule Sermons.Rfc do
     {_speaker, scripture}  = sermon_content_elements(page)
 
     scripture
+    |> String.replace("–", "-")
     |> String.split("Scripture:")
     |> Enum.at(1)
-    |> String.replace("–", "-")
     |> String.strip()
   end
 

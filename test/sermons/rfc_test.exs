@@ -6,7 +6,7 @@ defmodule Sermons.RfcTest do
     test "returns a list of sermon urls from an rss feed" do
       urls = [h|_t] = Rfc.get_sermon_urls_from_feed()
 
-      assert length(urls) == 249
+      assert length(urls) == 1
       assert h == "http://www.redeemerfellowshipchurch.org/sermons/sermon/2017-01-28/the-king-is-lord-of-the-sabbath"
     end
   end

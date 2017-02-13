@@ -31,7 +31,7 @@ defmodule Sermons.DesiringGod do
     Http.get(url) |> parse_sermon_page(url: url)
   end
 
-  def parse_sermon_page(html, url: url) do
+  defp parse_sermon_page(html, url: url) do
     page = Floki.parse(html)
 
     response = %{

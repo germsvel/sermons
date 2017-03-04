@@ -6,7 +6,7 @@ defmodule Sermons.RfcTest do
     test "returns a list of sermon urls from an rss feed" do
       urls = [h|_t] = Rfc.get_sermon_urls_from_feed()
 
-      assert length(urls) == 1
+      assert length(urls) == 2
       assert h == "http://www.redeemerfellowshipchurch.org/sermons/sermon/2017-01-28/the-king-is-lord-of-the-sabbath"
     end
   end
@@ -25,8 +25,16 @@ defmodule Sermons.RfcTest do
       assert sermon.source_url == url
     end
 
-    test "returns {:error, _} when parsing fails" do
+    test "returns {:error, _} when parsing fails due to page not having a scripture reference" do
       url = "http://www.redeemerfellowshipchurch.org/sermons/sermon/2016-12-25/jesus-was-born-to-make-all-things-new"
+
+      response = Rfc.get_sermon(url)
+
+      assert response == {:error, "Error parsing page"}
+    end
+
+    test "returns {:error, _} when sermon page does not have a notes link" do
+      url = "http://www.redeemerfellowshipchurch.org/sermons/sermon/2016-07-24/who-leads-the-church-part-2"
 
       response = Rfc.get_sermon(url)
 

@@ -58,7 +58,7 @@ defmodule Sermons.Rfc do
 
   defp sermon_content_elements(page) do
     case parse_sermon_content_elements(page) do
-      [_date, speaker, _series, _category, scripture] -> {speaker, scripture}
+      [_date, speaker, _series, _category, scripture | _] -> {speaker, scripture}
       [_date, speaker, _series, _category] -> {speaker, "Scripture:"}
     end
   end
@@ -76,7 +76,7 @@ defmodule Sermons.Rfc do
   end
 
   defp find_download_url(page) do
-    [_play, download, _notes] = media_detail_elements(page)
+    [_play, download | _] = media_detail_elements(page)
 
     Floki.attribute(download, "href")
     |> Enum.at(0)

@@ -8,7 +8,7 @@ defmodule Sermons.RetrievalSupervisor do
   def init(:ok) do
     children = [
       worker(Sermons.Workers.DailyWorker, [Sermons.Retrievers.DesiringGodFeed], id: :desiring_god_feed),
-      worker(Sermons.Workers.DailyWorker, [Sermons.Retrievers.RfcFeed], id: :rfc_feed),
+      worker(Sermons.Workers.WeeklyWorker, [Sermons.Retrievers.RfcFeed], id: :rfc_feed),
       worker(Sermons.Workers.MonthlyWorker, [Sermons.Retrievers.DesiringGodWebsite])
     ]
 

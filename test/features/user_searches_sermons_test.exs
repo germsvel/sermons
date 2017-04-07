@@ -8,13 +8,13 @@ defmodule Sermons.UserSearchesSermonsTest do
     build(:sermon) |> with_passage("Romans 3:23") |> insert
     navigate_to "/"
 
-    search_bar
+    search_bar()
     |> fill_field("Romans 3:23-24")
 
-    submit_element(search_bar)
+    submit_element(search_bar())
 
-    assert page_source =~ "Sermons for Romans 3:23-24"
-    assert length(sermons_list) == 2
+    assert page_source() =~ "Sermons for Romans 3:23-24"
+    assert length(sermons_list()) == 2
   end
 
   @tag :feature
@@ -22,12 +22,12 @@ defmodule Sermons.UserSearchesSermonsTest do
     sermon = insert(:sermon)
     navigate_to "/"
 
-    search_bar
+    search_bar()
     |> fill_field("Romans 3:23-24")
 
-    submit_element(search_bar)
+    submit_element(search_bar())
 
-    sermon_text = first_sermon |> visible_text
+    sermon_text = first_sermon() |> visible_text
 
     assert sermon_text =~ sermon.title
     assert sermon_text =~ sermon.author
@@ -39,10 +39,10 @@ defmodule Sermons.UserSearchesSermonsTest do
     sermon = insert(:sermon)
     navigate_to "/"
 
-    search_bar
+    search_bar()
     |> fill_field("Romans 3:23-24")
 
-    submit_element(search_bar)
+    submit_element(search_bar())
 
     source_link = link_for("Source")
     download_link = link_for("Download")
@@ -59,25 +59,25 @@ defmodule Sermons.UserSearchesSermonsTest do
 
     navigate_to "/"
 
-    search_bar
+    search_bar()
     |> fill_field("Romans 3:23-24")
 
-    submit_element(search_bar)
+    submit_element(search_bar())
 
-    sermon_text = first_sermon |> visible_text
+    sermon_text = first_sermon() |> visible_text
 
-    assert length(sermons_list) == 1
+    assert length(sermons_list()) == 1
     assert sermon_text =~ relevant_sermon.passage
   end
 
   defp link_for(link_text) do
-    first_sermon
+    first_sermon()
     |> find_within_element(:link_text, link_text)
     |> attribute_value("href")
   end
 
   defp first_sermon do
-    Enum.at(sermons_list, 0)
+    Enum.at(sermons_list(), 0)
   end
 
   defp search_bar do

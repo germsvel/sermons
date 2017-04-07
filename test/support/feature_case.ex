@@ -32,7 +32,7 @@ defmodule Sermons.FeatureCase do
       # The default endpoint for testing
       @endpoint Sermons.Endpoint
 
-      hound_session
+      hound_session()
     end
   end
 
